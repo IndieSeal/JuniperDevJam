@@ -73,3 +73,15 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+/Logs
+/Recordings
+/Library
+/Temp
+/UserSettings/Layouts/default-6000.dwlt
+
+# Get your own API key!!
+/Assets/LootLockerSDK
+
+# I can't distribute bought assets, so, yeah :[, srry about that haha
+/Assets/Plugins
