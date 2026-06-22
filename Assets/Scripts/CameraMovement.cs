@@ -1,7 +1,7 @@
+using Unity.Cinemachine;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-[RequireComponent(typeof(Camera))]
 public class CameraMovement : MonoBehaviour
 {
     [Header("Input")]
@@ -15,11 +15,15 @@ public class CameraMovement : MonoBehaviour
     [SerializeField] private float minZoom = 10f;
     [SerializeField] private float maxZoom = 20f;
 
-    private Camera myCam;
+    private CinemachineConfiner2D bounds;
+    private CinemachineCamera myCam;
 
     void Awake()
     {
-        myCam = GetComponent<Camera>();
+        GameManager.OnResetLevel += ResetLevel;
+        
+        myCam = GetComponent<CinemachineCamera>();
+        bounds = myCam.GetComponent<CinemachineConfiner2D>();
     }
 
     private void OnEnable()
@@ -42,14 +46,31 @@ public class CameraMovement : MonoBehaviour
 
     private void Move(Vector2 input)
     {
-        transform.position += (Vector3)(input * moveSpeed * Time.deltaTime);
+        /*float extraSpeed = bounds.GetCameraDisplacementDistance(myCam) * 0.4f;
+        Debug.Log(extraSpeed);
+        extraSpeed = Mathf.Clamp(extraSpeed, 1, 3);
+        */
+
+        float extraSpeed = Keyboard.current.shiftKey.isPressed ? 2 : 1;
+
+        transform.position += (Vector3)(input * extraSpeed * moveSpeed * Time.deltaTime);
+
+        Vector2 min = bounds.BoundingShape2D.bounds.min;
+        Vector2 max = bounds.BoundingShape2D.bounds.max;
+        transform.position = new Vector3(Mathf.Clamp(transform.position.x, min.x, max.x), Mathf.Clamp(transform.position.y, min.y, max.y), transform.position.z);
     }
 
     private void HandleMouseZoom()
     {
         float scroll = Mouse.current.scroll.y.ReadValue();
-        if (scroll != 0) myCam.orthographicSize -= scroll * zoomSpeed;
+        if (scroll != 0) myCam.Lens.OrthographicSize -= scroll * zoomSpeed;
 
-        myCam.orthographicSize = Mathf.Clamp(myCam.orthographicSize, minZoom, maxZoom);
+        myCam.Lens.OrthographicSize = Mathf.Clamp(myCam.Lens.OrthographicSize, minZoom, maxZoom);
+        bounds.InvalidateLensCache();
+    }
+
+    private void ResetLevel()
+    {
+        
     }
 }

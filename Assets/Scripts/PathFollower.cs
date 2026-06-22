@@ -14,6 +14,12 @@ public class PathFollower : MonoBehaviour
     [Header("Animation")]
     [SerializeField] private BouncyMation bouncyMation;
 
+    void Awake()
+    {
+        GameManager.OnResetLevel += ResetPath;
+        Vampire.OnDeath += Stop;
+    }
+
     void Start()
     {
         ResetPath();
@@ -22,11 +28,19 @@ public class PathFollower : MonoBehaviour
     [Button]
     private void ResetPath()
     {
+        if(path == null)
+        {
+            Debug.LogWarning("No path to follow, be sure to set it");
+            return;
+        }
+        if(!Application.isPlaying) return;
+        
         StartCoroutine(MoveCoroutine());
     }
 
     private IEnumerator MoveCoroutine()
     {
+        gameObject.SetActive(true);
         index = 0;
         
         PathPoint current = path.GetPathPoint(index);
@@ -53,5 +67,10 @@ public class PathFollower : MonoBehaviour
         }
 
         Debug.Log($"Finished moving through the path");
+    }
+
+    public void Stop(Vampire vamp)
+    {
+        StopAllCoroutines();
     }
 }

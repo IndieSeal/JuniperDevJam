@@ -14,10 +14,23 @@ public class Lever : Spinner
     private float targetAngle;
     public bool State { get; private set; } // Off = false, On = true :D!
 
+    protected override void Awake()
+    {
+        base.Awake();
+
+        GameManager.OnResetLevel += ResetLevel;
+    }
+
     void Start()
     {
-        rotationHandle.eulerAngles = new Vector3(0, 0, maxAngle);
+        ResetLevel();
+    }
+
+    private void ResetLevel()
+    {
+        SetZEulerAngle(maxAngle);
         targetAngle = maxAngle;
+        State = false;
     }
 
     void Update()
