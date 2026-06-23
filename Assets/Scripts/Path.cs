@@ -21,7 +21,7 @@ public class Path : MonoBehaviour
 
     void OnDrawGizmos()
     {
-        DrawXXL.DrawBasics2D.LineString(pathPoints.Select(x => (Vector2)x.transform.position).ToArray(), Color.green, width: 0.1f);
+        DrawXXL.DrawBasics2D.LineString(pathPoints.Where(x => x != null).Select(x => (Vector2)x.transform.position).ToArray(), Color.green, width: 0.1f);
         foreach(var point in pathPoints) DrawXXL.DrawText.Write2D($"{point.transform.name}\n{point.duration}s", point.transform.position, size: 0.5f);
     }
 }

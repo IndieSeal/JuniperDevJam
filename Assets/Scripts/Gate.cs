@@ -14,9 +14,6 @@ public class Gate : MonoBehaviour
     void Awake()
     {
         originalPosition = transform.position;
-
-        GameManager.OnResetLevel += ResetLevel;
-        ResetLevel();
     }
 
     void Update()
@@ -33,10 +30,5 @@ public class Gate : MonoBehaviour
         }
 
         transform.position = Vector2.Lerp(transform.position, targetPosition, gateMoveSpeed * Time.deltaTime);
-    }
-
-    private void ResetLevel()
-    {
-        transform.position = originalPosition;
     }
 }

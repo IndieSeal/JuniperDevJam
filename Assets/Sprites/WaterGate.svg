@@ -10,7 +10,7 @@
    xml:space="preserve"
    inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
    sodipodi:docname="WaterGate.svg"
-   inkscape:export-filename="WaterGateClosed.png"
+   inkscape:export-filename="GateWater.png"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -27,9 +27,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="0.2051189"
-     inkscape:cx="1079.8615"
-     inkscape:cy="948.23053"
+     inkscape:zoom="0.29008193"
+     inkscape:cx="-174.08875"
+     inkscape:cy="1201.3847"
      inkscape:window-width="1920"
      inkscape:window-height="1172"
      inkscape:window-x="0"
@@ -103,7 +103,11 @@
        gradientUnits="userSpaceOnUse" /></defs><g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1"><g
+     id="layer1"><path
+       style="display:inline;fill:#6bd3ff;fill-opacity:1;stroke:none;stroke-width:1.175;stroke-linecap:round"
+       d="m 145.25171,301.90463 53.81382,-20.52222 212.0908,-56.61694 10.23324,-282.227683 -490.709066,31.011353 9.120986,342.03699 z"
+       id="path5"
+       inkscape:label="Water" /><g
        id="g18"
        inkscape:label="Wall"
        style="display:inline"><path

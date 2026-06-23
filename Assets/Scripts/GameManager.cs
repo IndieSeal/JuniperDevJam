@@ -10,6 +10,12 @@ public class GameManager : MonoBehaviour
     void Awake()
     {
         Vampire.OnDeath += OnVampireDeath;
+        Vampire.OnWin += OnVampireWin;
+    }
+
+    private void OnVampireWin(Vampire vamp)
+    {
+        
     }
 
     private void OnVampireDeath(Vampire vamp) => StartCoroutine(TimeBeforeAvailableReset());

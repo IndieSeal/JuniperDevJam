@@ -6,6 +6,7 @@ public enum SpinDirection
 {
     Right,
     Left,
+    Both
 }
 
 public class SpinMechanic : Spinner
@@ -17,39 +18,78 @@ public class SpinMechanic : Spinner
     [ReadOnly, SerializeField] private int rotationCounter;
 
     private Vector2 previousDirection;
+    private Vector2 startMousePosition;
 
     private float accumulatedRotation;
     private float visualRotation;
 
+    protected override void Awake()
+    {
+        base.Awake();
+
+        GameManager.OnResetLevel += ResetLevel;
+    }
+
+    private void ResetLevel()
+    {
+        accumulatedRotation = 0;
+        visualRotation = 0;
+
+        rotationCounter = 0;
+
+        previousDirection = Vector2.zero;
+        startMousePosition = Vector2.zero;
+
+        SetZRotation(visualRotation);
+    }
+
+    protected override void OnPointerDown()
+    {
+        previousDirection = Vector2.zero;
+        startMousePosition = Utilities.Get2DMouseWorldPosition();
+    }
+
     private void Update()
     {
-        if(!isSelected) return;
+        if(!IsSelected) return;
         
         Vector2 mousePosition = Utilities.Get2DMouseWorldPosition();
-        Vector2 currentDirection = (mousePosition - (Vector2)rotatingTransform.position).normalized;
+
+        Vector2 centerPosition = startMousePosition;
+        if(rotatingTransform != null) centerPosition = rotatingTransform.position;
+        Vector2 currentDirection = (mousePosition - centerPosition).normalized;
 
         bool canRotate = maxRotations <= 0 || rotationCounter < maxRotations;
         if (previousDirection != Vector2.zero && canRotate)
         {            
             bool validDirection = true;
             
-            float delta = Vector2.SignedAngle(previousDirection, currentDirection) * -1;
-            if((lockedDirection == SpinDirection.Left && delta > 0) || (lockedDirection == SpinDirection.Right && delta < 0)) validDirection = false;
+            float delta = Vector2.SignedAngle(previousDirection, currentDirection);
+            if(lockedDirection != SpinDirection.Both && ((lockedDirection == SpinDirection.Left && delta > 0) || (lockedDirection == SpinDirection.Right && delta < 0))) validDirection = false;
 
             float maxAnglePerAccumulation = 40; // So players can't just grab the center point and start doing the fastest spins of their lives
             if (validDirection && Mathf.Abs(delta) < maxAnglePerAccumulation)
             {
                 accumulatedRotation += delta;
-
-                visualRotation -= delta;
+                visualRotation += delta;
                 if (maxRotations > 0)
                 {
                     float limit = maxRotations * 360f;
-                    bool isRight = lockedDirection == SpinDirection.Right;
-                    visualRotation = Mathf.Clamp(visualRotation, !isRight ? 0 : -limit, isRight ? limit : 0);
+                    switch (lockedDirection)
+                    {
+                        case SpinDirection.Right:
+                            Mathf.Clamp(visualRotation, 0, limit);
+                            break;
+                        case SpinDirection.Left:
+                            Mathf.Clamp(visualRotation, -limit, 0);
+                            break;
+                        default:
+                            Mathf.Clamp(visualRotation, -limit, limit);
+                            break;
+                    }
                 }
                 
-                rotatingTransform.eulerAngles = new Vector3(0, 0, visualRotation);
+                SetZRotation(visualRotation);
 
                 float rotation = 360; // How much you got to spin for a spin to count :D
                 if (Mathf.Abs(accumulatedRotation) >= rotation) HandleSpin();
@@ -57,6 +97,11 @@ public class SpinMechanic : Spinner
         }
 
         previousDirection = currentDirection;
+    }
+
+    private void SetZRotation(float value)
+    {
+        if(rotatingTransform != null) rotatingTransform.eulerAngles = new Vector3(rotatingTransform.eulerAngles.x, rotatingTransform.eulerAngles.y, value);
     }
 
     private void HandleSpin()

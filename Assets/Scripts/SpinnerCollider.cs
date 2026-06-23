@@ -9,7 +9,7 @@ public class SpinnerCollider : MonoBehaviour
     public event Action OnPointerUp;
 
     [InfoBox("OPTIONAL")]
-    [SerializeField] private SpriteRenderer spriteRenderer;
+    [SerializeField] private Renderer spriteRenderer;
     private bool highlightMaterial;
     private bool isPressing;
 
@@ -21,7 +21,10 @@ public class SpinnerCollider : MonoBehaviour
         else spriteRenderer.material.DisableKeyword("OUTBASE_ON");
     }
 
-    void OnMouseEnter() => highlightMaterial = true;
+    void OnMouseEnter()
+    {
+        highlightMaterial = true;
+    }
     void OnMouseExit()
     {
         if(isPressing) return;

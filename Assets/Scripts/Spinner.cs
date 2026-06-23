@@ -1,21 +1,37 @@
+using System;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
 public abstract class Spinner : MonoBehaviour
 {
+    public static event Action<Spinner> OnSelected;
+    public static event Action<Spinner> OnUnselected;
+    
     [SerializeField] private SpinnerCollider spinnerCollider;
-    protected bool isSelected;
+    public bool IsSelected { get; private set; }
 
     protected virtual void Awake()
     {
-        spinnerCollider.OnPointerDown += OnPointerDown;
-        spinnerCollider.OnPointerUp += OnPointerUp;
-
-        spinnerCollider.OnPointerDown += () => isSelected = true;
-        spinnerCollider.OnPointerUp += () => isSelected = false;
+        spinnerCollider.OnPointerDown += PointerDown;
+        spinnerCollider.OnPointerUp += PointerUp;
     }
 
-    public virtual void OnPointerDown() => Debug.Log("hello, thx for clicking me");
-    public virtual void OnPointerUp() => Debug.Log("hello, hate you for leaving me");
+    public void PointerDown()
+    {
+        OnPointerDown();
+        IsSelected = true;
+        OnSelected?.Invoke(this);
+    }
+    public void PointerUp()
+    {
+        if(!IsSelected) return;
+        
+        OnPointerUp();
+        IsSelected = false;
+        OnUnselected?.Invoke(this);
+    }
+
+    protected virtual void OnPointerDown() {}
+    protected virtual void OnPointerUp() {}
     public abstract float GetProgress();
 }

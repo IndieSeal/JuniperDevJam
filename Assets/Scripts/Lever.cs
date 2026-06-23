@@ -45,7 +45,7 @@ public class Lever : Spinner
         SetState(GetProgress());
 
         float howClose = GetLocalProgress();
-        if (!isSelected)
+        if (!IsSelected)
         {
             if(howClose < 0.4f) targetAngle = minAngle;
             else if(howClose > 0.6f) targetAngle = maxAngle;

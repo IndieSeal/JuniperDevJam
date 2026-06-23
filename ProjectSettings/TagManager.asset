@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 3
   tags:
   - KillBox
+  - Win
   layers:
   - Default
   - TransparentFX
@@ -48,11 +49,14 @@ TagManager:
   - name: Player
     uniqueID: 261561637
     locked: 0
+  - name: Foreground
+    uniqueID: 488869011
+    locked: 0
   - name: Particles
     uniqueID: 183430545
     locked: 0
-  - name: Foreground
-    uniqueID: 488869011
+  - name: WorldUI
+    uniqueID: 3258893739
     locked: 0
   m_RenderingLayers:
   - Default

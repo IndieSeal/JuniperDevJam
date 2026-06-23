@@ -3,6 +3,7 @@ using UnityEngine;
 
 public class Vampire : MonoBehaviour
 {
+    public static event Action<Vampire> OnWin;
     public static event Action<Vampire> OnDeath;
     private bool isDead;
 
@@ -26,7 +27,15 @@ public class Vampire : MonoBehaviour
 
     private void HandleEnterCollision(GameObject collision)
     {
-        TryKill(collision);        
+        TryKill(collision);
+        TryWin(collision);    
+    }
+
+    private void TryWin(GameObject collision)
+    {
+        if(!collision.CompareTag("Win") || isDead) return;
+
+        OnWin?.Invoke(this);
     }
 
     private void TryKill(GameObject collision)

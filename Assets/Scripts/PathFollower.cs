@@ -63,10 +63,7 @@ public class PathFollower : MonoBehaviour
             yield return new WaitForSeconds(current.duration);
 
             current = path.GetPathPoint(++index);
-            Debug.Log($"Moving to next point: {index}");
         }
-
-        Debug.Log($"Finished moving through the path");
     }
 
     public void Stop(Vampire vamp)

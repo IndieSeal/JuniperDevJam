@@ -9,6 +9,7 @@ public class CameraMovement : MonoBehaviour
 
     [Header("Movement")]
     [SerializeField] private float moveSpeed = 5f;
+    private Vector2 originalPosition;
 
     [Header("Zoom")]
     [SerializeField] private float zoomSpeed = 1f;
@@ -24,6 +25,7 @@ public class CameraMovement : MonoBehaviour
         
         myCam = GetComponent<CinemachineCamera>();
         bounds = myCam.GetComponent<CinemachineConfiner2D>();
+        originalPosition = transform.position;
     }
 
     private void OnEnable()
@@ -71,6 +73,6 @@ public class CameraMovement : MonoBehaviour
 
     private void ResetLevel()
     {
-        
+        transform.position = originalPosition;
     }
 }
