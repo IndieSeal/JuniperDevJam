@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 
 public abstract class Spinner : MonoBehaviour
-{
+{    
     public static event Action<Spinner> OnSelected;
     public static event Action<Spinner> OnUnselected;
     

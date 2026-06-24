@@ -84,7 +84,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Vampire
   animator: {fileID: 6787834469632841332}
-  follower: {fileID: 6114187011325935037}
 --- !u!114 &6114187011325935037
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -98,7 +97,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PathFollower
   path: {fileID: 0}
-  movementSpeed: 5
+  movementSpeed: 8
   bouncyMation: {fileID: 4273537617162886190}
 --- !u!114 &4273537617162886190
 MonoBehaviour:

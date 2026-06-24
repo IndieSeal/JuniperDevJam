@@ -5,6 +5,8 @@ using UnityEngine.EventSystems;
 
 public class SpinnerCollider : MonoBehaviour
 {
+    public static bool IsInteractable { get; set; } = true;
+    
     public event Action OnPointerDown;
     public event Action OnPointerUp;
 
@@ -23,24 +25,37 @@ public class SpinnerCollider : MonoBehaviour
 
     void OnMouseEnter()
     {
+        if(!IsInteractable) return;
+        
+        CursorManager.Instance.SetPointCursor();
         highlightMaterial = true;
     }
     void OnMouseExit()
     {
+        if(!IsInteractable) return;
+
         if(isPressing) return;
         highlightMaterial = false;
+
+        CursorManager.Instance.SetNormalCursor();
     }
 
     private void OnMouseDown()
     {
+        if(!IsInteractable) return;
+
         OnPointerDown?.Invoke();
         highlightMaterial = true;
         isPressing = true;
     }
     private void OnMouseUp()
     {
+        if(!IsInteractable) return;
+
         OnPointerUp?.Invoke();
         highlightMaterial = false;
         isPressing = false;
+
+        CursorManager.Instance.SetNormalCursor();
     }
 }

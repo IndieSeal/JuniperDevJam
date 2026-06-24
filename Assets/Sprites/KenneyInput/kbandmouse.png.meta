@@ -1,0 +1,7181 @@
+fileFormatVersion: 2
+guid: 1ca32943c0b2947c7803d134b69a2244
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8508624809884064454
+    second: keyboard-&-mouse_sheet_double_0
+  - first:
+      213: 1358168160327236483
+    second: keyboard-&-mouse_sheet_double_1
+  - first:
+      213: 2635286193534205109
+    second: keyboard-&-mouse_sheet_double_2
+  - first:
+      213: -1259194955521500033
+    second: keyboard-&-mouse_sheet_double_3
+  - first:
+      213: -3012110825163982403
+    second: keyboard-&-mouse_sheet_double_4
+  - first:
+      213: 3077908454925686369
+    second: keyboard-&-mouse_sheet_double_5
+  - first:
+      213: 8394378667170814838
+    second: keyboard-&-mouse_sheet_double_6
+  - first:
+      213: -4921357374373714389
+    second: keyboard-&-mouse_sheet_double_7
+  - first:
+      213: -6230059263630322317
+    second: keyboard-&-mouse_sheet_double_8
+  - first:
+      213: -1386455279400938488
+    second: keyboard-&-mouse_sheet_double_9
+  - first:
+      213: -5625367739215148807
+    second: keyboard-&-mouse_sheet_double_10
+  - first:
+      213: -3145174942587393846
+    second: keyboard-&-mouse_sheet_double_11
+  - first:
+      213: 706777270885579113
+    second: keyboard-&-mouse_sheet_double_12
+  - first:
+      213: -16861809843885481
+    second: keyboard-&-mouse_sheet_double_13
+  - first:
+      213: 5458247791175488555
+    second: keyboard-&-mouse_sheet_double_14
+  - first:
+      213: 1639448884918231749
+    second: keyboard-&-mouse_sheet_double_15
+  - first:
+      213: -748730820917766586
+    second: keyboard-&-mouse_sheet_double_16
+  - first:
+      213: -3336826974965348091
+    second: keyboard-&-mouse_sheet_double_17
+  - first:
+      213: -5314141510261252547
+    second: keyboard-&-mouse_sheet_double_18
+  - first:
+      213: 5452181076534016472
+    second: keyboard-&-mouse_sheet_double_19
+  - first:
+      213: -6246954376220860797
+    second: keyboard-&-mouse_sheet_double_20
+  - first:
+      213: -285080839254061421
+    second: keyboard-&-mouse_sheet_double_21
+  - first:
+      213: 3623318657492164800
+    second: keyboard-&-mouse_sheet_double_22
+  - first:
+      213: -398811251574269041
+    second: keyboard-&-mouse_sheet_double_23
+  - first:
+      213: -1515026338734650503
+    second: keyboard-&-mouse_sheet_double_24
+  - first:
+      213: 2824377408393703599
+    second: keyboard-&-mouse_sheet_double_25
+  - first:
+      213: 8721613307531770222
+    second: keyboard-&-mouse_sheet_double_26
+  - first:
+      213: 3469360211222444099
+    second: keyboard-&-mouse_sheet_double_27
+  - first:
+      213: 8909842002864784468
+    second: keyboard-&-mouse_sheet_double_28
+  - first:
+      213: -6352266527941644701
+    second: keyboard-&-mouse_sheet_double_29
+  - first:
+      213: -288878994262242726
+    second: keyboard-&-mouse_sheet_double_30
+  - first:
+      213: 3555835780609248293
+    second: keyboard-&-mouse_sheet_double_31
+  - first:
+      213: 1488921807849954696
+    second: keyboard-&-mouse_sheet_double_32
+  - first:
+      213: -3900621844472589817
+    second: keyboard-&-mouse_sheet_double_33
+  - first:
+      213: 3190001798968857803
+    second: keyboard-&-mouse_sheet_double_34
+  - first:
+      213: 9087909950656580945
+    second: keyboard-&-mouse_sheet_double_35
+  - first:
+      213: -7133258677860814908
+    second: keyboard-&-mouse_sheet_double_36
+  - first:
+      213: -7398138093448910463
+    second: keyboard-&-mouse_sheet_double_37
+  - first:
+      213: 500972570879577510
+    second: keyboard-&-mouse_sheet_double_38
+  - first:
+      213: -5411638598076513843
+    second: keyboard-&-mouse_sheet_double_39
+  - first:
+      213: 3211864319283878138
+    second: keyboard-&-mouse_sheet_double_40
+  - first:
+      213: -1497628429354562498
+    second: keyboard-&-mouse_sheet_double_41
+  - first:
+      213: -8714609801891274910
+    second: keyboard-&-mouse_sheet_double_42
+  - first:
+      213: 444843125365328926
+    second: keyboard-&-mouse_sheet_double_43
+  - first:
+      213: 5333483271397248491
+    second: keyboard-&-mouse_sheet_double_44
+  - first:
+      213: -6251933225551794112
+    second: keyboard-&-mouse_sheet_double_45
+  - first:
+      213: -4026578070857291693
+    second: keyboard-&-mouse_sheet_double_46
+  - first:
+      213: -2009510006568274284
+    second: keyboard-&-mouse_sheet_double_47
+  - first:
+      213: 1149660562981727766
+    second: keyboard-&-mouse_sheet_double_48
+  - first:
+      213: 3065390013396538931
+    second: keyboard-&-mouse_sheet_double_49
+  - first:
+      213: 8188878036314064311
+    second: keyboard-&-mouse_sheet_double_50
+  - first:
+      213: 5826373729029990905
+    second: keyboard-&-mouse_sheet_double_51
+  - first:
+      213: -8115361047179783686
+    second: keyboard-&-mouse_sheet_double_52
+  - first:
+      213: 1937574122290602566
+    second: keyboard-&-mouse_sheet_double_53
+  - first:
+      213: -6682534845373842881
+    second: keyboard-&-mouse_sheet_double_54
+  - first:
+      213: 7582787698855335723
+    second: keyboard-&-mouse_sheet_double_55
+  - first:
+      213: 8663880549826984434
+    second: keyboard-&-mouse_sheet_double_56
+  - first:
+      213: 4036466594796580009
+    second: keyboard-&-mouse_sheet_double_57
+  - first:
+      213: -1863994226021310705
+    second: keyboard-&-mouse_sheet_double_58
+  - first:
+      213: -5404053720658798709
+    second: keyboard-&-mouse_sheet_double_59
+  - first:
+      213: -6477735544879600950
+    second: keyboard-&-mouse_sheet_double_60
+  - first:
+      213: 2506881206172306172
+    second: keyboard-&-mouse_sheet_double_61
+  - first:
+      213: 3158812531594863585
+    second: keyboard-&-mouse_sheet_double_62
+  - first:
+      213: -8220235164248245729
+    second: keyboard-&-mouse_sheet_double_63
+  - first:
+      213: 8811548422867226316
+    second: keyboard-&-mouse_sheet_double_64
+  - first:
+      213: -4011065472134786342
+    second: keyboard-&-mouse_sheet_double_65
+  - first:
+      213: 4234521006922515152
+    second: keyboard-&-mouse_sheet_double_66
+  - first:
+      213: 1215250930424360932
+    second: keyboard-&-mouse_sheet_double_67
+  - first:
+      213: 619442795625693291
+    second: keyboard-&-mouse_sheet_double_68
+  - first:
+      213: -6921103637322142296
+    second: keyboard-&-mouse_sheet_double_69
+  - first:
+      213: 3092106999408172255
+    second: keyboard-&-mouse_sheet_double_70
+  - first:
+      213: 4471073633757255121
+    second: keyboard-&-mouse_sheet_double_71
+  - first:
+      213: -6383833780333300513
+    second: keyboard-&-mouse_sheet_double_72
+  - first:
+      213: 1455135642967840357
+    second: keyboard-&-mouse_sheet_double_73
+  - first:
+      213: -3854741795213029750
+    second: keyboard-&-mouse_sheet_double_74
+  - first:
+      213: 2299125269631469219
+    second: keyboard-&-mouse_sheet_double_75
+  - first:
+      213: 436809514633550275
+    second: keyboard-&-mouse_sheet_double_76
+  - first:
+      213: -40257688228912840
+    second: keyboard-&-mouse_sheet_double_77
+  - first:
+      213: 3945768069736200524
+    second: keyboard-&-mouse_sheet_double_78
+  - first:
+      213: -5373542818888940716
+    second: keyboard-&-mouse_sheet_double_79
+  - first:
+      213: -4760689452343409538
+    second: keyboard-&-mouse_sheet_double_80
+  - first:
+      213: -8900319556345029718
+    second: keyboard-&-mouse_sheet_double_81
+  - first:
+      213: -4841576489023298729
+    second: keyboard-&-mouse_sheet_double_82
+  - first:
+      213: 6849582136236354114
+    second: keyboard-&-mouse_sheet_double_83
+  - first:
+      213: 6161920342730733352
+    second: keyboard-&-mouse_sheet_double_84
+  - first:
+      213: -4625434435185207304
+    second: keyboard-&-mouse_sheet_double_85
+  - first:
+      213: 3840697073239822832
+    second: keyboard-&-mouse_sheet_double_86
+  - first:
+      213: -6711124224911881900
+    second: keyboard-&-mouse_sheet_double_87
+  - first:
+      213: -5020264503856462480
+    second: keyboard-&-mouse_sheet_double_88
+  - first:
+      213: -2902088354000148472
+    second: keyboard-&-mouse_sheet_double_89
+  - first:
+      213: 8599825987707875932
+    second: keyboard-&-mouse_sheet_double_90
+  - first:
+      213: 1461746645352375822
+    second: keyboard-&-mouse_sheet_double_91
+  - first:
+      213: 8313613368256703804
+    second: keyboard-&-mouse_sheet_double_92
+  - first:
+      213: -1979557041852174013
+    second: keyboard-&-mouse_sheet_double_93
+  - first:
+      213: -6466772802292309623
+    second: keyboard-&-mouse_sheet_double_94
+  - first:
+      213: -6633909386609008065
+    second: keyboard-&-mouse_sheet_double_95
+  - first:
+      213: -3666318448641809634
+    second: keyboard-&-mouse_sheet_double_96
+  - first:
+      213: -5516087980344184354
+    second: keyboard-&-mouse_sheet_double_97
+  - first:
+      213: -3227261845855480531
+    second: keyboard-&-mouse_sheet_double_98
+  - first:
+      213: 6497509912815701978
+    second: keyboard-&-mouse_sheet_double_99
+  - first:
+      213: 2960692898453725731
+    second: keyboard-&-mouse_sheet_double_100
+  - first:
+      213: 416427470611452499
+    second: keyboard-&-mouse_sheet_double_101
+  - first:
+      213: -7207321170928078356
+    second: keyboard-&-mouse_sheet_double_102
+  - first:
+      213: 2606282342908112284
+    second: keyboard-&-mouse_sheet_double_103
+  - first:
+      213: -3622911505351852149
+    second: keyboard-&-mouse_sheet_double_104
+  - first:
+      213: 3417980770386702127
+    second: keyboard-&-mouse_sheet_double_105
+  - first:
+      213: 3937091478173847554
+    second: keyboard-&-mouse_sheet_double_106
+  - first:
+      213: 6248234300754985299
+    second: keyboard-&-mouse_sheet_double_107
+  - first:
+      213: -5314412816783636115
+    second: keyboard-&-mouse_sheet_double_108
+  - first:
+      213: -1116908340426288006
+    second: keyboard-&-mouse_sheet_double_109
+  - first:
+      213: 5175740602991189258
+    second: keyboard-&-mouse_sheet_double_110
+  - first:
+      213: -2096359014382748475
+    second: keyboard-&-mouse_sheet_double_111
+  - first:
+      213: -5769684302505698928
+    second: keyboard-&-mouse_sheet_double_112
+  - first:
+      213: -5232418397814883859
+    second: keyboard-&-mouse_sheet_double_113
+  - first:
+      213: -1243653870225713466
+    second: keyboard-&-mouse_sheet_double_114
+  - first:
+      213: 7163113416579833614
+    second: keyboard-&-mouse_sheet_double_115
+  - first:
+      213: 9061996099091677051
+    second: keyboard-&-mouse_sheet_double_116
+  - first:
+      213: 757863461670728567
+    second: keyboard-&-mouse_sheet_double_117
+  - first:
+      213: -2964890010751735306
+    second: keyboard-&-mouse_sheet_double_118
+  - first:
+      213: 924495799235260763
+    second: keyboard-&-mouse_sheet_double_119
+  - first:
+      213: 8097014559256379517
+    second: keyboard-&-mouse_sheet_double_120
+  - first:
+      213: -2703812611461588828
+    second: keyboard-&-mouse_sheet_double_121
+  - first:
+      213: 3693475907348840471
+    second: keyboard-&-mouse_sheet_double_122
+  - first:
+      213: -6341529348229977753
+    second: keyboard-&-mouse_sheet_double_123
+  - first:
+      213: -7122846477506835299
+    second: keyboard-&-mouse_sheet_double_124
+  - first:
+      213: 6805400381568119983
+    second: keyboard-&-mouse_sheet_double_125
+  - first:
+      213: 1421291212504651587
+    second: keyboard-&-mouse_sheet_double_126
+  - first:
+      213: -7179456544577887282
+    second: keyboard-&-mouse_sheet_double_127
+  - first:
+      213: 8903467995929907099
+    second: keyboard-&-mouse_sheet_double_128
+  - first:
+      213: 6777920320086378429
+    second: keyboard-&-mouse_sheet_double_129
+  - first:
+      213: 6276218838960054354
+    second: keyboard-&-mouse_sheet_double_130
+  - first:
+      213: -8834199032943670098
+    second: keyboard-&-mouse_sheet_double_131
+  - first:
+      213: -756802226182774253
+    second: keyboard-&-mouse_sheet_double_132
+  - first:
+      213: 8476726116491226289
+    second: keyboard-&-mouse_sheet_double_133
+  - first:
+      213: -7717256096562300802
+    second: keyboard-&-mouse_sheet_double_134
+  - first:
+      213: -3121832391400126424
+    second: keyboard-&-mouse_sheet_double_135
+  - first:
+      213: -1038689753599141351
+    second: keyboard-&-mouse_sheet_double_136
+  - first:
+      213: 1193948482970111835
+    second: keyboard-&-mouse_sheet_double_137
+  - first:
+      213: -6806051226470276311
+    second: keyboard-&-mouse_sheet_double_138
+  - first:
+      213: 3437223597801162135
+    second: keyboard-&-mouse_sheet_double_139
+  - first:
+      213: -8709590959519885013
+    second: keyboard-&-mouse_sheet_double_140
+  - first:
+      213: 1447999804025390277
+    second: keyboard-&-mouse_sheet_double_141
+  - first:
+      213: -2681663225994205745
+    second: keyboard-&-mouse_sheet_double_142
+  - first:
+      213: 2572832243791921810
+    second: keyboard-&-mouse_sheet_double_143
+  - first:
+      213: 5045367840656468105
+    second: keyboard-&-mouse_sheet_double_144
+  - first:
+      213: 7758661342320514207
+    second: keyboard-&-mouse_sheet_double_145
+  - first:
+      213: -8298039781929912706
+    second: keyboard-&-mouse_sheet_double_146
+  - first:
+      213: -3153434809438657776
+    second: keyboard-&-mouse_sheet_double_147
+  - first:
+      213: 3373160756230112625
+    second: keyboard-&-mouse_sheet_double_148
+  - first:
+      213: -5347018287907997980
+    second: keyboard-&-mouse_sheet_double_149
+  - first:
+      213: 3807768957237977847
+    second: keyboard-&-mouse_sheet_double_150
+  - first:
+      213: 9110193363383228911
+    second: keyboard-&-mouse_sheet_double_151
+  - first:
+      213: 3569966695452857803
+    second: keyboard-&-mouse_sheet_double_152
+  - first:
+      213: 3702254854033267122
+    second: keyboard-&-mouse_sheet_double_153
+  - first:
+      213: -7855624949334981079
+    second: keyboard-&-mouse_sheet_double_154
+  - first:
+      213: 8475052616502488965
+    second: keyboard-&-mouse_sheet_double_155
+  - first:
+      213: 9107512645201994048
+    second: keyboard-&-mouse_sheet_double_156
+  - first:
+      213: 5279196090820954941
+    second: keyboard-&-mouse_sheet_double_157
+  - first:
+      213: 7934100829748805756
+    second: keyboard-&-mouse_sheet_double_158
+  - first:
+      213: 5033704341665645886
+    second: keyboard-&-mouse_sheet_double_159
+  - first:
+      213: -1078953514513365575
+    second: keyboard-&-mouse_sheet_double_160
+  - first:
+      213: 3187786936925584676
+    second: keyboard-&-mouse_sheet_double_161
+  - first:
+      213: 8474656007499850650
+    second: keyboard-&-mouse_sheet_double_162
+  - first:
+      213: 5863216589445059427
+    second: keyboard-&-mouse_sheet_double_163
+  - first:
+      213: 3868391760271821838
+    second: keyboard-&-mouse_sheet_double_164
+  - first:
+      213: 8393517171338804362
+    second: keyboard-&-mouse_sheet_double_165
+  - first:
+      213: 4963614312095941097
+    second: keyboard-&-mouse_sheet_double_166
+  - first:
+      213: 2044846406085582471
+    second: keyboard-&-mouse_sheet_double_167
+  - first:
+      213: -5711937070466633758
+    second: keyboard-&-mouse_sheet_double_168
+  - first:
+      213: 7361456166493818091
+    second: keyboard-&-mouse_sheet_double_169
+  - first:
+      213: 5784931824346783123
+    second: keyboard-&-mouse_sheet_double_170
+  - first:
+      213: 7769848051435745707
+    second: keyboard-&-mouse_sheet_double_171
+  - first:
+      213: 1198543794763839899
+    second: keyboard-&-mouse_sheet_double_172
+  - first:
+      213: -4225236650381370779
+    second: keyboard-&-mouse_sheet_double_173
+  - first:
+      213: 7236284394022690221
+    second: keyboard-&-mouse_sheet_double_174
+  - first:
+      213: -8177930924464764716
+    second: keyboard-&-mouse_sheet_double_175
+  - first:
+      213: 8605741553835679050
+    second: keyboard-&-mouse_sheet_double_176
+  - first:
+      213: -3624836366853675182
+    second: keyboard-&-mouse_sheet_double_177
+  - first:
+      213: -5886256389905759768
+    second: keyboard-&-mouse_sheet_double_178
+  - first:
+      213: 6466023803632605052
+    second: keyboard-&-mouse_sheet_double_179
+  - first:
+      213: 1871928663135996283
+    second: keyboard-&-mouse_sheet_double_180
+  - first:
+      213: 5133961526939300255
+    second: keyboard-&-mouse_sheet_double_181
+  - first:
+      213: -2793044961532678392
+    second: keyboard-&-mouse_sheet_double_182
+  - first:
+      213: -6650396225224541173
+    second: keyboard-&-mouse_sheet_double_183
+  - first:
+      213: 2852888399781026800
+    second: keyboard-&-mouse_sheet_double_184
+  - first:
+      213: 6697181633846278419
+    second: keyboard-&-mouse_sheet_double_185
+  - first:
+      213: 5218654445434042854
+    second: keyboard-&-mouse_sheet_double_186
+  - first:
+      213: -487159030911124578
+    second: keyboard-&-mouse_sheet_double_187
+  - first:
+      213: 6105193887162674583
+    second: keyboard-&-mouse_sheet_double_188
+  - first:
+      213: -9190723134210329954
+    second: keyboard-&-mouse_sheet_double_189
+  - first:
+      213: 3997845931502703700
+    second: keyboard-&-mouse_sheet_double_190
+  - first:
+      213: 869829871477563452
+    second: keyboard-&-mouse_sheet_double_191
+  - first:
+      213: 7289802953590706526
+    second: keyboard-&-mouse_sheet_double_192
+  - first:
+      213: 7092275256151791679
+    second: keyboard-&-mouse_sheet_double_193
+  - first:
+      213: -6140194152627056981
+    second: keyboard-&-mouse_sheet_double_194
+  - first:
+      213: -6948839372627814005
+    second: keyboard-&-mouse_sheet_double_195
+  - first:
+      213: -7335606352566299211
+    second: keyboard-&-mouse_sheet_double_196
+  - first:
+      213: 8489787298073856805
+    second: keyboard-&-mouse_sheet_double_197
+  - first:
+      213: -6494288911283050252
+    second: keyboard-&-mouse_sheet_double_198
+  - first:
+      213: 6818401694300646036
+    second: keyboard-&-mouse_sheet_double_199
+  - first:
+      213: -4367892179663000384
+    second: keyboard-&-mouse_sheet_double_200
+  - first:
+      213: 8120261811609160986
+    second: keyboard-&-mouse_sheet_double_201
+  - first:
+      213: 5119150297052003702
+    second: keyboard-&-mouse_sheet_double_202
+  - first:
+      213: 3811711877562698026
+    second: keyboard-&-mouse_sheet_double_203
+  - first:
+      213: 68626886183834423
+    second: keyboard-&-mouse_sheet_double_204
+  - first:
+      213: 3911525912097789811
+    second: keyboard-&-mouse_sheet_double_205
+  - first:
+      213: 8864505305398405519
+    second: keyboard-&-mouse_sheet_double_206
+  - first:
+      213: -8860390914011388419
+    second: keyboard-&-mouse_sheet_double_207
+  - first:
+      213: -7865078872656872047
+    second: keyboard-&-mouse_sheet_double_208
+  - first:
+      213: -5401406893650002561
+    second: keyboard-&-mouse_sheet_double_209
+  - first:
+      213: -2706844204331183003
+    second: keyboard-&-mouse_sheet_double_210
+  - first:
+      213: 8562172169669801022
+    second: keyboard-&-mouse_sheet_double_211
+  - first:
+      213: -1881230927827980895
+    second: keyboard-&-mouse_sheet_double_212
+  - first:
+      213: -577839193899899176
+    second: keyboard-&-mouse_sheet_double_213
+  - first:
+      213: 8954596756897184151
+    second: keyboard-&-mouse_sheet_double_214
+  - first:
+      213: -7531416249839506166
+    second: keyboard-&-mouse_sheet_double_215
+  - first:
+      213: -5202975443418401982
+    second: keyboard-&-mouse_sheet_double_216
+  - first:
+      213: -7255705853724942208
+    second: keyboard-&-mouse_sheet_double_217
+  - first:
+      213: -6361134711151565942
+    second: keyboard-&-mouse_sheet_double_218
+  - first:
+      213: 4360110940043278906
+    second: keyboard-&-mouse_sheet_double_219
+  - first:
+      213: 401521393260108097
+    second: keyboard-&-mouse_sheet_double_220
+  - first:
+      213: -3099561806212254647
+    second: keyboard-&-mouse_sheet_double_221
+  - first:
+      213: 6391292280538082924
+    second: keyboard-&-mouse_sheet_double_222
+  - first:
+      213: 5324093074976616552
+    second: keyboard-&-mouse_sheet_double_223
+  - first:
+      213: -4721554793522838769
+    second: keyboard-&-mouse_sheet_double_224
+  - first:
+      213: -6524648942670864573
+    second: keyboard-&-mouse_sheet_double_225
+  - first:
+      213: 6656797373709140976
+    second: keyboard-&-mouse_sheet_double_226
+  - first:
+      213: 9084211410377319186
+    second: keyboard-&-mouse_sheet_double_227
+  - first:
+      213: -2674189421040093198
+    second: keyboard-&-mouse_sheet_double_228
+  - first:
+      213: -8954654912002913096
+    second: keyboard-&-mouse_sheet_double_229
+  - first:
+      213: -7946123853552766301
+    second: keyboard-&-mouse_sheet_double_230
+  - first:
+      213: 8869406616351983051
+    second: keyboard-&-mouse_sheet_double_231
+  - first:
+      213: -1669944118687459824
+    second: keyboard-&-mouse_sheet_double_232
+  - first:
+      213: -6275140582796416069
+    second: keyboard-&-mouse_sheet_double_233
+  - first:
+      213: -5387685341627816739
+    second: keyboard-&-mouse_sheet_double_234
+  - first:
+      213: 1270679716335939108
+    second: keyboard-&-mouse_sheet_double_235
+  - first:
+      213: -4915148671579031965
+    second: keyboard-&-mouse_sheet_double_236
+  - first:
+      213: 846333359143142913
+    second: keyboard-&-mouse_sheet_double_237
+  - first:
+      213: -2172128193647968400
+    second: keyboard-&-mouse_sheet_double_238
+  - first:
+      213: 25217543661917735
+    second: keyboard-&-mouse_sheet_double_239
+  - first:
+      213: 6430321912583551949
+    second: keyboard-&-mouse_sheet_double_240
+  - first:
+      213: 3986891096756354380
+    second: keyboard-&-mouse_sheet_double_241
+  - first:
+      213: 2870726371452601698
+    second: keyboard-&-mouse_sheet_double_242
+  - first:
+      213: -5579177628487040120
+    second: keyboard-&-mouse_sheet_double_243
+  - first:
+      213: 1169628926362166760
+    second: keyboard-&-mouse_sheet_double_244
+  - first:
+      213: -7693093045125456961
+    second: keyboard-&-mouse_sheet_double_245
+  - first:
+      213: 1769592720266743063
+    second: keyboard-&-mouse_sheet_double_246
+  - first:
+      213: 1137314997904504064
+    second: keyboard-&-mouse_sheet_double_247
+  - first:
+      213: -9196239750629099692
+    second: keyboard-&-mouse_sheet_double_248
+  - first:
+      213: 2585308884804026712
+    second: keyboard-&-mouse_sheet_double_249
+  - first:
+      213: 7838921453688759248
+    second: keyboard-&-mouse_sheet_double_250
+  - first:
+      213: -6948652310647038046
+    second: keyboard-&-mouse_sheet_double_251
+  - first:
+      213: -7622149277937385918
+    second: keyboard-&-mouse_sheet_double_252
+  - first:
+      213: -7957929756545334977
+    second: keyboard-&-mouse_sheet_double_253
+  - first:
+      213: -8719145807127032341
+    second: keyboard-&-mouse_sheet_double_254
+  - first:
+      213: -5923076583714345325
+    second: keyboard-&-mouse_sheet_double_255
+  - first:
+      213: 6341934075509352629
+    second: keyboard-&-mouse_sheet_double_256
+  - first:
+      213: -3671432787851732894
+    second: keyboard-&-mouse_sheet_double_257
+  - first:
+      213: -5668240139226048698
+    second: keyboard-&-mouse_sheet_double_258
+  - first:
+      213: 2442605543649533995
+    second: keyboard-&-mouse_sheet_double_259
+  - first:
+      213: -2411767925593493075
+    second: keyboard-&-mouse_sheet_double_260
+  - first:
+      213: 8460867054333837474
+    second: keyboard-&-mouse_sheet_double_261
+  - first:
+      213: -7316807289769197550
+    second: keyboard-&-mouse_sheet_double_262
+  - first:
+      213: 1769430068807105000
+    second: keyboard-&-mouse_sheet_double_263
+  - first:
+      213: -7103396712656886780
+    second: keyboard-&-mouse_sheet_double_264
+  - first:
+      213: 6329130015800562966
+    second: keyboard-&-mouse_sheet_double_265
+  - first:
+      213: 6148800651170520074
+    second: keyboard-&-mouse_sheet_double_266
+  - first:
+      213: -4937060390660592344
+    second: keyboard-&-mouse_sheet_double_267
+  - first:
+      213: 1953750588200665396
+    second: keyboard-&-mouse_sheet_double_268
+  - first:
+      213: 5618768086451090730
+    second: keyboard-&-mouse_sheet_double_269
+  - first:
+      213: -98145807631897817
+    second: keyboard-&-mouse_sheet_double_270
+  - first:
+      213: -5335748572452327219
+    second: keyboard-&-mouse_sheet_double_271
+  - first:
+      213: -7763091224566407763
+    second: keyboard-&-mouse_sheet_double_272
+  - first:
+      213: -1020501527885190312
+    second: keyboard-&-mouse_sheet_double_273
+  - first:
+      213: 1976040748304216032
+    second: keyboard-&-mouse_sheet_double_274
+  - first:
+      213: -1972984821773582126
+    second: keyboard-&-mouse_sheet_double_275
+  - first:
+      213: -3437486642776566583
+    second: keyboard-&-mouse_sheet_double_276
+  - first:
+      213: 5675797585940257687
+    second: keyboard-&-mouse_sheet_double_277
+  - first:
+      213: -8225900797274834110
+    second: keyboard-&-mouse_sheet_double_278
+  - first:
+      213: -3430066792126015738
+    second: keyboard-&-mouse_sheet_double_279
+  - first:
+      213: -677301871102599164
+    second: keyboard-&-mouse_sheet_double_280
+  - first:
+      213: 8510152527827196712
+    second: keyboard-&-mouse_sheet_double_281
+  - first:
+      213: -4814263533714118997
+    second: keyboard-&-mouse_sheet_double_282
+  - first:
+      213: 6283600271438378485
+    second: keyboard-&-mouse_sheet_double_283
+  - first:
+      213: -3464244893473235262
+    second: keyboard-&-mouse_sheet_double_284
+  - first:
+      213: -2426650483222950143
+    second: keyboard-&-mouse_sheet_double_285
+  - first:
+      213: -1789280990924641946
+    second: keyboard-&-mouse_sheet_double_286
+  - first:
+      213: 8223806911889000689
+    second: keyboard-&-mouse_sheet_double_287
+  - first:
+      213: 366551680035258289
+    second: keyboard-&-mouse_sheet_double_288
+  - first:
+      213: -6042615882145933377
+    second: keyboard-&-mouse_sheet_double_289
+  - first:
+      213: 7767582526273504343
+    second: keyboard-&-mouse_sheet_double_290
+  - first:
+      213: -1906075173677112570
+    second: keyboard-&-mouse_sheet_double_291
+  - first:
+      213: 7640951618873743202
+    second: keyboard-&-mouse_sheet_double_292
+  - first:
+      213: 2575206694224228589
+    second: keyboard-&-mouse_sheet_double_293
+  - first:
+      213: -1148931619994086322
+    second: keyboard-&-mouse_sheet_double_294
+  - first:
+      213: -6396776289864436933
+    second: keyboard-&-mouse_sheet_double_295
+  - first:
+      213: 3722043869414941834
+    second: keyboard-&-mouse_sheet_double_296
+  - first:
+      213: -2756422818417791266
+    second: keyboard-&-mouse_sheet_double_297
+  - first:
+      213: 2335385322979142079
+    second: keyboard-&-mouse_sheet_double_298
+  - first:
+      213: -5025866232393789691
+    second: keyboard-&-mouse_sheet_double_299
+  - first:
+      213: 1170899069742635771
+    second: keyboard-&-mouse_sheet_double_300
+  - first:
+      213: -5344682194755753027
+    second: keyboard-&-mouse_sheet_double_301
+  - first:
+      213: -5886035692628412410
+    second: keyboard-&-mouse_sheet_double_302
+  - first:
+      213: -3212661171761989849
+    second: keyboard-&-mouse_sheet_double_303
+  - first:
+      213: 3546534425603553417
+    second: keyboard-&-mouse_sheet_double_304
+  - first:
+      213: 2483169416897959028
+    second: keyboard-&-mouse_sheet_double_305
+  - first:
+      213: -7975917770859174421
+    second: keyboard-&-mouse_sheet_double_306
+  - first:
+      213: 1614574626192249738
+    second: keyboard-&-mouse_sheet_double_307
+  - first:
+      213: 362983496137431143
+    second: keyboard-&-mouse_sheet_double_308
+  - first:
+      213: -1600544869151887194
+    second: keyboard-&-mouse_sheet_double_309
+  - first:
+      213: -5645757799901870887
+    second: keyboard-&-mouse_sheet_double_310
+  - first:
+      213: -9063274879471591690
+    second: keyboard-&-mouse_sheet_double_311
+  - first:
+      213: 6804426596454231196
+    second: keyboard-&-mouse_sheet_double_312
+  - first:
+      213: -4986322921737956288
+    second: keyboard-&-mouse_sheet_double_313
+  - first:
+      213: -6658458797656698188
+    second: keyboard-&-mouse_sheet_double_314
+  - first:
+      213: -314999604784830406
+    second: keyboard-&-mouse_sheet_double_315
+  - first:
+      213: 3914877587811694991
+    second: keyboard-&-mouse_sheet_double_316
+  - first:
+      213: -3278724500698575582
+    second: keyboard-&-mouse_sheet_double_317
+  - first:
+      213: 3729142720722024717
+    second: keyboard-&-mouse_sheet_double_318
+  - first:
+      213: 605017723390131519
+    second: keyboard-&-mouse_sheet_double_319
+  - first:
+      213: -718705893315681975
+    second: keyboard-&-mouse_sheet_double_320
+  - first:
+      213: 4117924860147040949
+    second: keyboard-&-mouse_sheet_double_321
+  - first:
+      213: 1869656719745596825
+    second: keyboard-&-mouse_sheet_double_322
+  - first:
+      213: 1958388586432385976
+    second: keyboard-&-mouse_sheet_double_323
+  - first:
+      213: -5744487660813282735
+    second: keyboard-&-mouse_sheet_double_324
+  - first:
+      213: 4049756938253433931
+    second: keyboard-&-mouse_sheet_double_325
+  - first:
+      213: 8880152090432440973
+    second: keyboard-&-mouse_sheet_double_326
+  - first:
+      213: -6210715490797717745
+    second: keyboard-&-mouse_sheet_double_327
+  - first:
+      213: 4718011805021895259
+    second: keyboard-&-mouse_sheet_double_328
+  - first:
+      213: -4501256819287765568
+    second: keyboard-&-mouse_sheet_double_329
+  - first:
+      213: 7032945413839840903
+    second: keyboard-&-mouse_sheet_double_330
+  - first:
+      213: -5044733926408355625
+    second: keyboard-&-mouse_sheet_double_331
+  - first:
+      213: 4997925161029175657
+    second: keyboard-&-mouse_sheet_double_332
+  - first:
+      213: -3486497631278153222
+    second: keyboard-&-mouse_sheet_double_333
+  - first:
+      213: -8650916117686370861
+    second: keyboard-&-mouse_sheet_double_334
+  - first:
+      213: -9139587772837038349
+    second: keyboard-&-mouse_sheet_double_335
+  - first:
+      213: 2444611577050293216
+    second: keyboard-&-mouse_sheet_double_336
+  - first:
+      213: 3239628506492276499
+    second: keyboard-&-mouse_sheet_double_337
+  - first:
+      213: 5298101652028369011
+    second: keyboard-&-mouse_sheet_double_338
+  - first:
+      213: 2674665484981365286
+    second: keyboard-&-mouse_sheet_double_339
+  - first:
+      213: 8954993622998084364
+    second: keyboard-&-mouse_sheet_double_340
+  - first:
+      213: -3541551185366495314
+    second: keyboard-&-mouse_sheet_double_341
+  - first:
+      213: -3701697361384995172
+    second: keyboard-&-mouse_sheet_double_342
+  - first:
+      213: 7974584220713263877
+    second: keyboard-&-mouse_sheet_double_343
+  - first:
+      213: -2078963232513860730
+    second: keyboard-&-mouse_sheet_double_344
+  - first:
+      213: 5152141305678664192
+    second: keyboard-&-mouse_sheet_double_345
+  - first:
+      213: 2480030961585152707
+    second: keyboard-&-mouse_sheet_double_346
+  - first:
+      213: -3434175464968293314
+    second: keyboard-&-mouse_sheet_double_347
+  - first:
+      213: 5541095565287998888
+    second: keyboard-&-mouse_sheet_double_348
+  - first:
+      213: 157792292918288229
+    second: keyboard-&-mouse_sheet_double_349
+  - first:
+      213: -311563569542757398
+    second: keyboard-&-mouse_sheet_double_350
+  - first:
+      213: 7360337732073985108
+    second: keyboard-&-mouse_sheet_double_351
+  - first:
+      213: -4044786291361646297
+    second: keyboard-&-mouse_sheet_double_352
+  - first:
+      213: -5524971827197738556
+    second: keyboard-&-mouse_sheet_double_353
+  - first:
+      213: 208841835196875674
+    second: keyboard-&-mouse_sheet_double_354
+  - first:
+      213: 4368743712964873650
+    second: keyboard-&-mouse_sheet_double_355
+  - first:
+      213: 5997377209628071849
+    second: keyboard-&-mouse_sheet_double_356
+  - first:
+      213: -3252249445357968473
+    second: keyboard-&-mouse_sheet_double_357
+  - first:
+      213: 5804571870108453762
+    second: keyboard-&-mouse_sheet_double_358
+  - first:
+      213: 2321064177050151004
+    second: keyboard-&-mouse_sheet_double_359
+  - first:
+      213: -6615622431130420597
+    second: keyboard-&-mouse_sheet_double_360
+  - first:
+      213: 7069069363140994623
+    second: keyboard-&-mouse_sheet_double_361
+  - first:
+      213: -4675908825125779512
+    second: keyboard-&-mouse_sheet_double_362
+  - first:
+      213: 4462701866592833786
+    second: keyboard-&-mouse_sheet_double_363
+  - first:
+      213: -4120322111570512813
+    second: keyboard-&-mouse_sheet_double_364
+  - first:
+      213: -8047410130024754219
+    second: keyboard-&-mouse_sheet_double_365
+  - first:
+      213: -3944306472195903750
+    second: keyboard-&-mouse_sheet_double_366
+  - first:
+      213: -2163655575544309880
+    second: keyboard-&-mouse_sheet_double_367
+  - first:
+      213: 3239625039148443206
+    second: keyboard-&-mouse_sheet_double_368
+  - first:
+      213: 4508975003249149771
+    second: keyboard-&-mouse_sheet_double_369
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: kbandmouse_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1920
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c678accc43713bcf682246fcbc20787d
+      internalID: -1949695075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1920
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0be0eef4ecab08b2aadde15c81e006a2
+      internalID: 1573525508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1792
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af04e21550ff8871aad93676fd76bed3
+      internalID: -2107936846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_18
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1792
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 809d1ee160d71ce49b132353f9d71835
+      internalID: 1943211644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_19
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1792
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e77c8b3424ba4d6089be9c2ab571cfaf
+      internalID: 975883143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_20
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1792
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4cbaff7b4687dcd2a72ba13348a7fb2
+      internalID: 1599661947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_21
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1792
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a16541891a40c1e4b5fc398021ef1f1
+      internalID: 1102451353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_22
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1792
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62bedf5b20fee8652b323783db3d588d
+      internalID: -1294490805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_23
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1792
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 057bb7282eeaca3a69165620c924b84f
+      internalID: 1104600240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_24
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1792
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6aa51ba45ad80d62b96e4445cc5f7ae
+      internalID: 82652249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_25
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1792
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1dff3ce3b04ec7c184acf0ff675570e
+      internalID: 1047824147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_26
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1792
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 651b1b3fb4cbfc64fb2c0035fd924891
+      internalID: 2066698889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_27
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1792
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b011c76fe5d7dc50b3f5990c89e7613
+      internalID: 1017796403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_28
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1792
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cb7c4e5345a6dcba99c87a10586d541
+      internalID: 1768384801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_29
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1792
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 823c2f928e787002baaabecfec24b030
+      internalID: -83349759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_30
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 1792
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40a2f5cb0a2cb70a6b896610667b2285
+      internalID: 1475942380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_31
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1792
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c69b86d13a6187362919ee65e658a3b1
+      internalID: 412308387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_32
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1792
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbcf1c349673fa0efae49e2c9e2b73d0
+      internalID: 955834335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_33
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1792
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feb8f5142d8e2d8d19d52c05add02d0e
+      internalID: 1646723686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_34
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1664
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd2ef6d5bd504b2198efad0559596102
+      internalID: -586487537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_35
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1664
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94aed42060da560b5b32cc73462a2e3a
+      internalID: -66012322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_36
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1664
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fb009ecab2800354a6d3850235a4c3b
+      internalID: 1677016443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_37
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1664
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2fe54dfa67b70aa8b46c21ba9aa7572
+      internalID: -1194534838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_38
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1664
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ed29b5ffd862926199c940b876a0da2
+      internalID: 2105998067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_39
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1664
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c07a361a463f17e9be64e91b58e8a6b
+      internalID: 703210510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_40
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1664
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2221d37a77e26d698bdfc75b9b04d6a
+      internalID: -269228224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_41
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1664
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2d9eec5ff8fdc62cb873ff0a022d790
+      internalID: 232859802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_42
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1664
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe1c2512a3fc1186c9c63bcf2fc6e3c1
+      internalID: 697786743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_43
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1664
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32b84dbac79ea5d478fbeea241f1855c
+      internalID: 107648908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_44
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1664
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f091adac12811505ba18a1f03af9fba0
+      internalID: 1369268286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_45
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1664
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9de7b01dbf6ff8c09ab13312dd7585e
+      internalID: 1025484357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_46
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1664
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c781fa41ab804973ab5b37ebf1ce992
+      internalID: -1909903780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_47
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 1664
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a4a79fe27727f29c84982fab4906607
+      internalID: 1566996383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_48
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1664
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 151068224ce716900910002ea006c62a
+      internalID: 734423579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_49
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1664
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9172f0bb1ea762b6833f805da562219
+      internalID: 1628874555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_50
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1664
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f908f72bdb7f7ed3480edd41fb0e0569
+      internalID: -820737771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_51
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1536
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 291f568dc3fad3adfbdaf112bb4eb503
+      internalID: -1900335018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_52
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1536
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34a6547c8d97630f4b44c9c20a30d03c
+      internalID: -1414948741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_53
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1536
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fe76ff2f6a3d4c66ba6a32a25d61890
+      internalID: 264488307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_54
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1536
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c639c1592ed57809e9af991e200f073e
+      internalID: -522606150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_55
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1536
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f896829c0fa448309fe72616bdf3b27
+      internalID: 365228533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_56
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1536
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 312b454da5b5579cb867700e07974bd0
+      internalID: -1003956182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_57
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1536
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff6910c7eadbdcf12b325a4cfedb47a6
+      internalID: -777024544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_58
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1536
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03862ba150680e8689287b584ccc3ea4
+      internalID: -117300079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_59
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1536
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04ed993c898b52fa6aa49b699913862c
+      internalID: -34123937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_60
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1536
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4c9e0fcb4c1d6d4ab58bd111aa9cb29
+      internalID: -157422942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_61
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1536
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 078abe92246614c05a6c871c9752767b
+      internalID: 1180639194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_62
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1536
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc3bbb3ce8eafc4cc931383c87aa14d4
+      internalID: 1263057923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_63
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1536
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cd5a7359f2387ae993ccb13cfdbee17
+      internalID: 2093485462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_64
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 1536
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6a4bf0f6714f3bd383fa4c0beeaf480
+      internalID: 1414072496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_65
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1536
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29d1dc22c4cd8d30f93e75858062a1d2
+      internalID: 373689141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_66
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1536
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bf81776aa50e82afb54625453100f9b
+      internalID: -920340672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_67
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1536
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09537125d29c66083ad6817fc1328dec
+      internalID: -1988604114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_68
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1408
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e438852fdeb1139baaa657ae9db998a
+      internalID: -1142087076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_69
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1408
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b43a2dcc84b1b22d490fa30c080da25a
+      internalID: 1262345219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_70
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1408
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 597fbbcf11240c67d84af6160b6d2329
+      internalID: -398800871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_71
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1408
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3c9611b5c092b5c2bd07e9d8a7c46dd
+      internalID: -1041612685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_72
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1408
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4475698db20c3f98ab0ce9866c31c339
+      internalID: -874723437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_73
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1408
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29a5a79fe0f2f9ee7bbb89071c439430
+      internalID: 1693826310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_74
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1408
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f05cc828bdec3f3ba8a8ca8fca6d60c
+      internalID: 1524547624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_75
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1408
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e9ec6a8a3485e25db5f1ad949fc1363
+      internalID: 737568973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_76
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1408
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9431ffbd8589545a09f99d7301bbc2f8
+      internalID: -1592967083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_77
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1408
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e49a6caa6e546529846ebed530b0a43
+      internalID: 521801777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_78
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1408
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae7d59ccc17550bc99af0b6e26fd0a7d
+      internalID: 1383765649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_79
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1408
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf868e5bde474b4509821b53bcabb34e
+      internalID: -1135228615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_80
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1408
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 709b2621ab4b685e2b7fdc95263f9106
+      internalID: -1540079439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_81
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 1408
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e4d4b76fcf9747b2b897018399ea2e2
+      internalID: 2025065293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_82
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1408
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5318ffea805ac469a291b9ddfe9ea0a
+      internalID: 388846811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_83
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1408
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4313ef883c4b99b8b1aeeceee393683
+      internalID: 1035250072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_84
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1408
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fce8d8faa8de41cc1947c65513164b17
+      internalID: 449604261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_85
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1280
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e326c82b851bf99d68e916fe237de0d3
+      internalID: 2062270546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_86
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1280
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3fd24cee96a378c8b0810b2d257df06
+      internalID: 594077456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_87
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1280
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a25ecba95b7eeafc8beb988e91ae6536
+      internalID: -1204936978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_88
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1280
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce6cebe11c91596a59b0843070f2a97d
+      internalID: 565044891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_89
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1280
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eba1bff31975ea13290eff27d1b1b147
+      internalID: -473738344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_90
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1280
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac1d2d39efe0380dc8993fd5c92ac91f
+      internalID: 136165532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_91
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1280
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e165c4fc7579fc3696b50df8a36999e
+      internalID: -1823653266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_92
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1280
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e35fc8636043921c3b99a41115c3ce33
+      internalID: 1170690086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_93
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1280
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71a1892664b999ae7a2095fa9eda50df
+      internalID: 566366143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_94
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1280
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf85fef5cebba897080c3ae18dc491ec
+      internalID: 783300472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_95
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1280
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f55c41bea065d67c7ad2ec7ca86c5b3c
+      internalID: 2083681968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_96
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1280
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9dd6ce8a4716b32e81a7a596a4ab48f
+      internalID: -955704692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_97
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1280
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1cb9d04a0ff643ddbb914b77ee6a8ed
+      internalID: -75959792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_98
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 1280
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6701e3354bb0467b692ff80c6314ffd4
+      internalID: -232417678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_99
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1280
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5551eeec9adf4971ac8be6cb739aa17
+      internalID: 314472769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_100
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1280
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbb75059ab8c9929c86db880d2daf9d2
+      internalID: -1405503065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_101
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1280
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bbe9f3946d397fc1b9a4199bf982394
+      internalID: 162335095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_102
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1152
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7470ac5178a8e531cb4ff3f21bddf92f
+      internalID: -120592991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_103
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1152
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9c0a27ba42a7c05ab42f808f4311fc8
+      internalID: 1608088917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_104
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1152
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 790985b644ab0e60694e3bff40bfcdbf
+      internalID: 825211829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_105
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1152
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c01fa45b82be975ab97b6738c0a37b2
+      internalID: -1693364935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_106
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1152
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67c967709fc7ed5a1956619cb19e5df7
+      internalID: -796964135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_107
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1152
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbf53fcc86bcc9a978b08d0e6fbb5903
+      internalID: 1166709578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_108
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1152
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d43dc662e4767a1892c0da3ff48707a
+      internalID: 303520189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_109
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1152
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33f0368a9bfab11008f656dbfe42ed62
+      internalID: 1332158129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_110
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1152
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09da476908ebeca46b3c34cdd4d7d6b0
+      internalID: -479920989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_111
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1152
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9946483baac3470681e9d5c5ab6e35a
+      internalID: -535076455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_112
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1152
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e34de3fa0e54136b1b158ecbac66ddae
+      internalID: -1862630407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_113
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1152
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b80cb13bd4d893f828022a17a03f8407
+      internalID: 1180286322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_114
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1152
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01a7a3d1f1fca2e58a05eee3c5429090
+      internalID: -1876584589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_115
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 1152
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7953d27ca58477fcc8e24538e71df33c
+      internalID: -394564861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_116
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1152
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 305c01d636560581ba8025a3eba9bd70
+      internalID: -1562675987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_117
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1152
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9f780ce40468e7728d255ddc7250860
+      internalID: 193799685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_118
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1152
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0910bd9abe8972d90bb8e69e397397de
+      internalID: 115869456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_119
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2c7fdc9d9f4e9d35967630af6807d48
+      internalID: -2077891982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_120
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc23e83e78b63ac2894343f3167dc930
+      internalID: 336348602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_121
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8d96119a732ed6ad8350d8396ca21dd
+      internalID: -1772074834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_122
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab0bdc8fa299f5fa7b9fba51f0e629d5
+      internalID: 364649228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_123
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76d4f48cd8b0a8b9a8b32a1d7a5de8f1
+      internalID: -37992445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_124
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 447881da907250668ae3bb6a5b4e1ffc
+      internalID: -1972844152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_125
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a87ab6a91e38c9e6b71df6905d9966d
+      internalID: 862180287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_126
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d00c363ae8a13fb01aafbc575da62dfe
+      internalID: -82555065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_127
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8cbc025f2bf8b1cb8b088beda050779
+      internalID: -1073667081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_128
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5264fa0ac90b8c6ad9125bd0efde5581
+      internalID: -1027910646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_129
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbe1112c13a1eb1229c61a5854b5c223
+      internalID: 1616476845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_130
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95f52887aedac39a3a583772bf405d77
+      internalID: 1495334907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_131
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc5e7cd106848d155a5893ae586b4153
+      internalID: 2058742847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_132
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 574cfd716a517d484beb7e2a33497d23
+      internalID: -701267744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_133
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07202cbdb864487e1905f087f2527f6f
+      internalID: 633695289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_134
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3086ded3b21c898f1b9851af1c51485b
+      internalID: -1765405048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_135
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1024
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20edf73efdac0ddd59a8cdb823ca36e1
+      internalID: 1546872118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_136
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23ee1f301aa5c28539bfbc734e3cac43
+      internalID: -1178678552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_137
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 896
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13b36c8bad785028aa7ee7ae2acc9c88
+      internalID: 1373196991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_138
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 896
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9317f510f9d1acfabbef692b7189cf47
+      internalID: -1615493406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_139
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 896
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 809f0de88ab290174946b647e2677c4e
+      internalID: -428809366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_140
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 896
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70bc6ddee79eab5d9987adafae713752
+      internalID: 772043506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_141
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 896
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0be66ae7309855c70a8226551a9a318e
+      internalID: -1523276246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_142
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 896
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df98d85aed110457eb013213ad9e8044
+      internalID: -601098757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_143
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 896
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c2430d885c78b8f1972531d4924072d
+      internalID: -2117365014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_144
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 896
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76732f54d39d39e719674e60bb0f0d65
+      internalID: 284300264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_145
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 896
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90cbd428c47c7f26db166874e9412069
+      internalID: -1069818394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_146
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 896
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3af5049706a3155aebe2ca1d1f67c875
+      internalID: -870067472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_147
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 896
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e68a4c273b34e00b8c3d80b55fe2848
+      internalID: -288788855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_148
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 896
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 784278cf3a58b9ddfb59d2408aa26479
+      internalID: 1410385875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_149
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 896
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd7802251a6a79351854b7b3c2b3ecd9
+      internalID: 1660391639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_150
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 896
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 119668bce6c7ac52b926c74c3e637882
+      internalID: 81632255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_151
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 896
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30c11b0d7732ee6ab81e5a182ffe4809
+      internalID: 927174189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_152
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 896
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e8ad88c81fdfaf1f98cca1b7ea50e60
+      internalID: -579895979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_153
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e501f83a82c49b2c09a8085152dd3b11
+      internalID: 1693082347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_154
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 768
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da2356ac5cff5b2c98d3473d73881ac5
+      internalID: 1209030182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_155
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45922bfb0b2a492de955e70a6119ec0f
+      internalID: -2122024796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_156
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2def81ed3864ee9a5802a6bff5858af7
+      internalID: 1316042895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_157
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 617df56600f5e5db6aa2e971aa2e9ca2
+      internalID: -975070966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_158
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 768
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28766b2bb888f5dfc96427b1aeb2bce7
+      internalID: 1991602343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_159
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c9d04f757d1a5e7482f597f7e30620d
+      internalID: -685938792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_160
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 768
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cce71d9a63f6ec7099cb79f57b5be4fb
+      internalID: 583350152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_161
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 768
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8b9b4d9cc0e889e09af91b09c51031c
+      internalID: -1650010679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_162
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 768
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 891666008df664eaab9cb4a67a7049b2
+      internalID: -637948363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_163
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 768
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce9cdc8128d58658c845c51bff4de7a3
+      internalID: -897568739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_164
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 768
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f8fa8c4ba839cb8aa3e468d57d01741
+      internalID: 1980356269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_165
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 768
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e52172f017f79edc59caf62384519eea
+      internalID: -644641394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_166
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 768
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9275b699281afff1cafa9b056a3bc16b
+      internalID: -419254147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_167
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 768
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3586d0571c42c17918d354a0c2e37995
+      internalID: -29050401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_168
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 768
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dba86c748a49a813da806021fd23082f
+      internalID: -1641161393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_169
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 768
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05dd06180063a24e88b0946c4dfcca53
+      internalID: 278356908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_170
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6e11a2be04ae870cbef1198522509ad
+      internalID: -1090910245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_171
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 565687060b314a2168be64411929f1c4
+      internalID: 829693966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_172
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 640
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a358fefe4e234edd58eebdef59060ee4
+      internalID: 973079754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_173
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 640
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62af5bdd6608a31228fe6b00903cf1d4
+      internalID: 98407019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_174
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 640
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 644690f317ae5cac490cebd71a34a0ec
+      internalID: -2107282278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_175
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 640
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 275255abb26c62f5bb71714d3515c984
+      internalID: -1579203571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_176
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 640
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78391fb5c411f8239a67d4e5ab2a1f4f
+      internalID: -1841894496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_177
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 640
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80a7b432c5a04096ba3cbcc5afe56552
+      internalID: 452607161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_178
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 640
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26bf5bd526c4aa417830e761c7e28418
+      internalID: 1631594959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_179
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 640
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdbb4d378902b553f8d7dd3d60296231
+      internalID: -1318107863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_180
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 640
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e1caf5c2266949218552411d4343d63
+      internalID: 957564579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_181
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 640
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b99553529635f27409ae0c44ee005a8e
+      internalID: -907610440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_182
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 640
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e563d76866ca5a5997398916f6ebe9d
+      internalID: -1435710389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_183
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 640
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e446be52d1f8e09aa965d69f713c73f7
+      internalID: 543211494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_184
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 640
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba1108101e00b2cd8b4416f48f91f8e8
+      internalID: 1591332238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_185
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 640
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcc438f82d97b2b0b8ebc2e4fae2a98b
+      internalID: 204030821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_186
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 640
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 368caed25e1cf5d73a6faa65fc54c2f3
+      internalID: 1816113866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_187
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99b3ef44a0a8d27c2a16136c6d64e6b9
+      internalID: 2016947963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_188
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d489fe2ed62f2588a97c58c3cecde12
+      internalID: 1608950976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_189
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32910d3c15ec53f36a36d8412ec295b5
+      internalID: 150380986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_190
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 512
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baf33081cbd35d983b9ec36faa5f0946
+      internalID: -1646273570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_191
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f06f65683987754491871459d319c7b
+      internalID: 1673713921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_192
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 512
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41dafb9a25fc87058a9fd88bb3265274
+      internalID: -1164885947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_193
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c0b6a31fbfe235888201a25d5689fe3
+      internalID: -1028689492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_194
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 512
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c12ff8137a72aa0dac8d4057d32472a
+      internalID: -1397114967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_195
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 512
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c57c46341ac5c0a59a99a16666463756
+      internalID: -845457690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_196
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 512
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b118400f4ca99834afaefa890ab0547
+      internalID: 230537125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_197
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 512
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b8f5d438b1dbd1c8a3c12eb756a05f4
+      internalID: 1722248842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_198
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 512
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43f8bd4d602d29bcf92781b75b100b1b
+      internalID: -613027756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_199
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 512
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89a9a19bf5d6544e287717c50586dfd6
+      internalID: -689290315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_200
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 512
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d21fe500ceb4ebfcebaf6a8121eaf9e9
+      internalID: 1034974145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_201
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 512
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 573ffb9658433645db74f3b76f993b81
+      internalID: -622987149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_202
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 512
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec5e10e879f2b83c4ba98024a67c0f6c
+      internalID: 1622953071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_203
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 512
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe56e57440d033ddca3faebdce4b16b9
+      internalID: -342953721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_204
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27bc4af2fa8baba67875746e7f957107
+      internalID: -1663745255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_205
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd3f1e97f834126c3abc20a1571f010d
+      internalID: 1841213025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_206
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b78916afc598ea62a01fb6699ed3713
+      internalID: -1716156948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_207
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84bbd3b5d0b1555758927fbe435afd44
+      internalID: 265684256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_208
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 384
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c11be82f3315edf2c8ce53d7b901a74c
+      internalID: -1066496696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_209
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 384
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95f5bf34cd9c17e929306fc4f5c3c185
+      internalID: -990366988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_210
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 384
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 291a481c75faba1d3accdbd2f43faf49
+      internalID: 757731517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_211
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 384
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 378569071209bccff8586df313965fc7
+      internalID: 1647218956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_212
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 384
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c13f26eb966388e1a863df5952976924
+      internalID: 1848349802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_213
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 384
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87895cbe710c1a4bfaff298c9c8ec393
+      internalID: -1796252875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_214
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 384
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec1bdfefe7776e44a8796db19de4275c
+      internalID: 556496035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_215
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 384
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 874e216d3442831a9af9ffe09ec1ca95
+      internalID: 949343959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_216
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 384
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0820cd814e726a87e8bf05a89b5f223b
+      internalID: -741203349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_217
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 384
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f59221b4edeb2c2038fb54f0f2c0e6ba
+      internalID: -1359556595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_218
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 384
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc09ce17164efc66c90f2544d83868f9
+      internalID: -977148340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_219
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 384
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14a09fa839b1c039eb9cf0049d0be3be
+      internalID: 2019865025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_220
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 384
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df407d9a7d244fa5e8238846e3efe2a7
+      internalID: 1462481766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_221
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6defcb6e38f5d39880b8e6b5e77a3bb
+      internalID: -981062351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_222
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5597a8fa29072a39e9af93063ac24d80
+      internalID: -1879625722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_223
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3cb864f2c46ec47f89888bd9a710927
+      internalID: -583747847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_224
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 294c8a3c1504744c7ab6a1b52f215c9a
+      internalID: 1098230282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_225
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0fdccc2c075772d6bf5eba51548d6bd
+      internalID: 273032959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_226
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 256
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f841311969ef4b9f9bb49515f4201a6e
+      internalID: -28354553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_227
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 875cf1fe346d101b9934a9a2fbf87c4c
+      internalID: 875376497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_228
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 256
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a56a2e5db61ceea64a3c2929efc10da6
+      internalID: 536678899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_229
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 256
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 887b0caa22ed936b2a2a4b2b62f69685
+      internalID: -2087085498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_230
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 256
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45feab7ff47fa0f8eb3fab8901fa9bb8
+      internalID: 841160045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_231
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 256
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c71395ba7db11337c873f5c387ed8da7
+      internalID: -295321009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_232
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 256
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e82d86817fd9c73e38738562ea60fca9
+      internalID: 1659363032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_233
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 256
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdb4d64c485e9f3c7923ef4209ab6e6c
+      internalID: 736417592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_234
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 256
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4020b786a4f12a46381ff11ba0feed24
+      internalID: -170569429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_235
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 256
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77ea502f237a9268d9dc4f8c63dc7ed7
+      internalID: -185471698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_236
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 256
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be2ae42a7a195996da123670a82dea44
+      internalID: 644627659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_237
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 256
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e097023946addf65f93f98846c2418a7
+      internalID: -1904971017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_238
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19ca9fae0556f6259837f7552dc98952
+      internalID: 803459442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_239
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d1222205218e4b2ebe510580cc3e946
+      internalID: 1717156471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_240
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60d91a77e7d79b829b222c7ad727f223
+      internalID: -212944696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_241
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3909d1943464caaa5886bcc1bfd4e355
+      internalID: 476451926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_242
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c6d200fad804583590cc9f788b0a68d
+      internalID: 1494519280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_243
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 128
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caa483e396782b6a28767bf37fd1907b
+      internalID: 2052927680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_244
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 128
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09c489b454303297492fe2df32ea7320
+      internalID: 237610978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_245
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 128
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93e924b8f3d9a1aeaba68206a6691dfd
+      internalID: 1099391074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_246
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 128
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff86df04ab6f03e7cbc3c6d5d339d5e0
+      internalID: 2143482568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_247
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 128
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 998bc45acaf003c5a8551806c96e7a28
+      internalID: -592946865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_248
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 128
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12e0fe24fb42e7e9fbd1b34f2a695194
+      internalID: 315473651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_249
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 128
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a701b372be858c18bebf70335e9a35d
+      internalID: 687924986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_250
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 128
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c673d4e290cdd8e1e9d2cc3d2f9f502d
+      internalID: 1731631441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_251
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 128
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98244b592a9a9a5e49ac9b758736e8aa
+      internalID: 759490059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_252
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 128
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aacd91d921295553687152ca99439657
+      internalID: -1657770905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_253
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 128
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21a46c62ad98a9fb882258b3dd414770
+      internalID: 148711493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_254
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 128
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf856f31607d94875a928ca6dda0dbdc
+      internalID: -28710371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_255
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 112ad2c6579baea5c8634417b913a845
+      internalID: 1376368687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_256
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13c26b553e6189a5aabb83a0f555b3f0
+      internalID: -1055170205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_257
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d27280be1ab1db1779d119eb73635db6
+      internalID: -1129536284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_258
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f254e41c4be27b85099f8fe667e1e5ca
+      internalID: 1890715849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_259
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe15a8f142e19aef898403756a141cb0
+      internalID: -807985727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_260
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81c698643d20760ff80e6c520a95b042
+      internalID: -1827877952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_261
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5981fe921e6f651ec92b483f5133c3d8
+      internalID: -1755776343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_262
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 799b64cd00db1fa809ee73c589adff03
+      internalID: 121569579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_263
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1175c99df98e28ed1bed22d3798e7c3f
+      internalID: 1731099768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_264
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12d08d8c5b2c7d108a34b2a2ae59466e
+      internalID: -1490831558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_265
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20d3ddee60880a15991b0e12a4bb9e3e
+      internalID: -1114555717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_266
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 0
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81fbbd4ed3bfe61b0bef02595343dbb3
+      internalID: -1426773240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_267
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52f67a20f5bc6d4cb8c759650f6fb548
+      internalID: 416407993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_268
+      rect:
+        serializedVersion: 2
+        x: 1664
+        y: 0
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91f7cbdb2c7d24fc58b9ec23a5709796
+      internalID: 624654236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_269
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 0
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd9f3673234c64eec887218a349f0f90
+      internalID: -1581881150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_270
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78475712fc34ac9f2a09522c4c3519c4
+      internalID: 2000437802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kbandmouse_271
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 0
+        width: 128
+        height: 128
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d97cac6c0b035bd64a91ff38c6576354
+      internalID: 1646295857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 018fb45fe7180f6238475ffdeb5075ba
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":17.0,"y":16.0},"gridSpriteSize":{"x":128.0,"y":128.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":6,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      kbandmouse_0: -1949695075
+      kbandmouse_1: 1573525508
+      kbandmouse_10: -728360341
+      kbandmouse_100: -1405503065
+      kbandmouse_101: 162335095
+      kbandmouse_102: -120592991
+      kbandmouse_103: 1608088917
+      kbandmouse_104: 825211829
+      kbandmouse_105: -1693364935
+      kbandmouse_106: -796964135
+      kbandmouse_107: 1166709578
+      kbandmouse_108: 303520189
+      kbandmouse_109: 1332158129
+      kbandmouse_11: 1650132027
+      kbandmouse_110: -479920989
+      kbandmouse_111: -535076455
+      kbandmouse_112: -1862630407
+      kbandmouse_113: 1180286322
+      kbandmouse_114: -1876584589
+      kbandmouse_115: -394564861
+      kbandmouse_116: -1562675987
+      kbandmouse_117: 193799685
+      kbandmouse_118: 115869456
+      kbandmouse_119: -2077891982
+      kbandmouse_12: -1467285292
+      kbandmouse_120: 336348602
+      kbandmouse_121: -1772074834
+      kbandmouse_122: 364649228
+      kbandmouse_123: -37992445
+      kbandmouse_124: -1972844152
+      kbandmouse_125: 862180287
+      kbandmouse_126: -82555065
+      kbandmouse_127: -1073667081
+      kbandmouse_128: -1027910646
+      kbandmouse_129: 1616476845
+      kbandmouse_13: -1385760447
+      kbandmouse_130: 1495334907
+      kbandmouse_131: 2058742847
+      kbandmouse_132: -701267744
+      kbandmouse_133: 633695289
+      kbandmouse_134: -1765405048
+      kbandmouse_135: 1546872118
+      kbandmouse_136: -1178678552
+      kbandmouse_137: 1373196991
+      kbandmouse_138: -1615493406
+      kbandmouse_139: -428809366
+      kbandmouse_14: -2121678542
+      kbandmouse_140: 772043506
+      kbandmouse_141: -1523276246
+      kbandmouse_142: -601098757
+      kbandmouse_143: -2117365014
+      kbandmouse_144: 284300264
+      kbandmouse_145: -1069818394
+      kbandmouse_146: -870067472
+      kbandmouse_147: -288788855
+      kbandmouse_148: 1410385875
+      kbandmouse_149: 1660391639
+      kbandmouse_15: -1175884806
+      kbandmouse_150: 81632255
+      kbandmouse_151: 927174189
+      kbandmouse_152: -579895979
+      kbandmouse_153: 1693082347
+      kbandmouse_154: 1209030182
+      kbandmouse_155: -2122024796
+      kbandmouse_156: 1316042895
+      kbandmouse_157: -975070966
+      kbandmouse_158: 1991602343
+      kbandmouse_159: -685938792
+      kbandmouse_16: 1274995682
+      kbandmouse_160: 583350152
+      kbandmouse_161: -1650010679
+      kbandmouse_162: -637948363
+      kbandmouse_163: -897568739
+      kbandmouse_164: 1980356269
+      kbandmouse_165: -644641394
+      kbandmouse_166: -419254147
+      kbandmouse_167: -29050401
+      kbandmouse_168: -1641161393
+      kbandmouse_169: 278356908
+      kbandmouse_17: -2107936846
+      kbandmouse_170: -1090910245
+      kbandmouse_171: 829693966
+      kbandmouse_172: 973079754
+      kbandmouse_173: 98407019
+      kbandmouse_174: -2107282278
+      kbandmouse_175: -1579203571
+      kbandmouse_176: -1841894496
+      kbandmouse_177: 452607161
+      kbandmouse_178: 1631594959
+      kbandmouse_179: -1318107863
+      kbandmouse_18: 1943211644
+      kbandmouse_180: 957564579
+      kbandmouse_181: -907610440
+      kbandmouse_182: -1435710389
+      kbandmouse_183: 543211494
+      kbandmouse_184: 1591332238
+      kbandmouse_185: 204030821
+      kbandmouse_186: 1816113866
+      kbandmouse_187: 2016947963
+      kbandmouse_188: 1608950976
+      kbandmouse_189: 150380986
+      kbandmouse_19: 975883143
+      kbandmouse_190: -1646273570
+      kbandmouse_191: 1673713921
+      kbandmouse_192: -1164885947
+      kbandmouse_193: -1028689492
+      kbandmouse_194: -1397114967
+      kbandmouse_195: -845457690
+      kbandmouse_196: 230537125
+      kbandmouse_197: 1722248842
+      kbandmouse_198: -613027756
+      kbandmouse_199: -689290315
+      kbandmouse_2: 791891429
+      kbandmouse_20: 1599661947
+      kbandmouse_200: 1034974145
+      kbandmouse_201: -622987149
+      kbandmouse_202: 1622953071
+      kbandmouse_203: -342953721
+      kbandmouse_204: -1663745255
+      kbandmouse_205: 1841213025
+      kbandmouse_206: -1716156948
+      kbandmouse_207: 265684256
+      kbandmouse_208: -1066496696
+      kbandmouse_209: -990366988
+      kbandmouse_21: 1102451353
+      kbandmouse_210: 757731517
+      kbandmouse_211: 1647218956
+      kbandmouse_212: 1848349802
+      kbandmouse_213: -1796252875
+      kbandmouse_214: 556496035
+      kbandmouse_215: 949343959
+      kbandmouse_216: -741203349
+      kbandmouse_217: -1359556595
+      kbandmouse_218: -977148340
+      kbandmouse_219: 2019865025
+      kbandmouse_22: -1294490805
+      kbandmouse_220: 1462481766
+      kbandmouse_221: -981062351
+      kbandmouse_222: -1879625722
+      kbandmouse_223: -583747847
+      kbandmouse_224: 1098230282
+      kbandmouse_225: 273032959
+      kbandmouse_226: -28354553
+      kbandmouse_227: 875376497
+      kbandmouse_228: 536678899
+      kbandmouse_229: -2087085498
+      kbandmouse_23: 1104600240
+      kbandmouse_230: 841160045
+      kbandmouse_231: -295321009
+      kbandmouse_232: 1659363032
+      kbandmouse_233: 736417592
+      kbandmouse_234: -170569429
+      kbandmouse_235: -185471698
+      kbandmouse_236: 644627659
+      kbandmouse_237: -1904971017
+      kbandmouse_238: 803459442
+      kbandmouse_239: 1717156471
+      kbandmouse_24: 82652249
+      kbandmouse_240: -212944696
+      kbandmouse_241: 476451926
+      kbandmouse_242: 1494519280
+      kbandmouse_243: 2052927680
+      kbandmouse_244: 237610978
+      kbandmouse_245: 1099391074
+      kbandmouse_246: 2143482568
+      kbandmouse_247: -592946865
+      kbandmouse_248: 315473651
+      kbandmouse_249: 687924986
+      kbandmouse_25: 1047824147
+      kbandmouse_250: 1731631441
+      kbandmouse_251: 759490059
+      kbandmouse_252: -1657770905
+      kbandmouse_253: 148711493
+      kbandmouse_254: -28710371
+      kbandmouse_255: 1376368687
+      kbandmouse_256: -1055170205
+      kbandmouse_257: -1129536284
+      kbandmouse_258: 1890715849
+      kbandmouse_259: -807985727
+      kbandmouse_26: 2066698889
+      kbandmouse_260: -1827877952
+      kbandmouse_261: -1755776343
+      kbandmouse_262: 121569579
+      kbandmouse_263: 1731099768
+      kbandmouse_264: -1490831558
+      kbandmouse_265: -1114555717
+      kbandmouse_266: -1426773240
+      kbandmouse_267: 416407993
+      kbandmouse_268: 624654236
+      kbandmouse_269: -1581881150
+      kbandmouse_27: 1017796403
+      kbandmouse_270: 2000437802
+      kbandmouse_271: 1646295857
+      kbandmouse_28: 1768384801
+      kbandmouse_29: -83349759
+      kbandmouse_3: 719783880
+      kbandmouse_30: 1475942380
+      kbandmouse_31: 412308387
+      kbandmouse_32: 955834335
+      kbandmouse_33: 1646723686
+      kbandmouse_34: -586487537
+      kbandmouse_35: -66012322
+      kbandmouse_36: 1677016443
+      kbandmouse_37: -1194534838
+      kbandmouse_38: 2105998067
+      kbandmouse_39: 703210510
+      kbandmouse_4: 2141821574
+      kbandmouse_40: -269228224
+      kbandmouse_41: 232859802
+      kbandmouse_42: 697786743
+      kbandmouse_43: 107648908
+      kbandmouse_44: 1369268286
+      kbandmouse_45: 1025484357
+      kbandmouse_46: -1909903780
+      kbandmouse_47: 1566996383
+      kbandmouse_48: 734423579
+      kbandmouse_49: 1628874555
+      kbandmouse_5: -600623982
+      kbandmouse_50: -820737771
+      kbandmouse_51: -1900335018
+      kbandmouse_52: -1414948741
+      kbandmouse_53: 264488307
+      kbandmouse_54: -522606150
+      kbandmouse_55: 365228533
+      kbandmouse_56: -1003956182
+      kbandmouse_57: -777024544
+      kbandmouse_58: -117300079
+      kbandmouse_59: -34123937
+      kbandmouse_6: -1437714949
+      kbandmouse_60: -157422942
+      kbandmouse_61: 1180639194
+      kbandmouse_62: 1263057923
+      kbandmouse_63: 2093485462
+      kbandmouse_64: 1414072496
+      kbandmouse_65: 373689141
+      kbandmouse_66: -920340672
+      kbandmouse_67: -1988604114
+      kbandmouse_68: -1142087076
+      kbandmouse_69: 1262345219
+      kbandmouse_7: 383258183
+      kbandmouse_70: -398800871
+      kbandmouse_71: -1041612685
+      kbandmouse_72: -874723437
+      kbandmouse_73: 1693826310
+      kbandmouse_74: 1524547624
+      kbandmouse_75: 737568973
+      kbandmouse_76: -1592967083
+      kbandmouse_77: 521801777
+      kbandmouse_78: 1383765649
+      kbandmouse_79: -1135228615
+      kbandmouse_8: -1819123403
+      kbandmouse_80: -1540079439
+      kbandmouse_81: 2025065293
+      kbandmouse_82: 388846811
+      kbandmouse_83: 1035250072
+      kbandmouse_84: 449604261
+      kbandmouse_85: 2062270546
+      kbandmouse_86: 594077456
+      kbandmouse_87: -1204936978
+      kbandmouse_88: 565044891
+      kbandmouse_89: -473738344
+      kbandmouse_9: -1732571643
+      kbandmouse_90: 136165532
+      kbandmouse_91: -1823653266
+      kbandmouse_92: 1170690086
+      kbandmouse_93: 566366143
+      kbandmouse_94: 783300472
+      kbandmouse_95: 2083681968
+      kbandmouse_96: -955704692
+      kbandmouse_97: -75959792
+      kbandmouse_98: -232417678
+      kbandmouse_99: 314472769
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
