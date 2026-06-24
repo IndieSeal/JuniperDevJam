@@ -5,7 +5,8 @@ using UnityEngine.EventSystems;
 
 public class SpinnerCollider : MonoBehaviour
 {
-    public static bool IsInteractable { get; set; } = true;
+    public static bool IsGlobalInteractable { get; set; } = true;
+    public bool IsInteractable { get; set; } = true;
     
     public event Action OnPointerDown;
     public event Action OnPointerUp;
@@ -18,6 +19,13 @@ public class SpinnerCollider : MonoBehaviour
     void Awake()
     {
         if(spriteRenderer != null) spriteRenderer.material.DisableKeyword("OUTBASE_ON");
+
+        GameManager.OnResetLevel += OnResetLevel;
+    }
+
+    private void OnResetLevel()
+    {
+        IsInteractable = true;
     }
 
     void Update()
@@ -30,14 +38,14 @@ public class SpinnerCollider : MonoBehaviour
 
     void OnMouseEnter()
     {
-        if(!IsInteractable) return;
+        if(!IsGlobalInteractable || !IsInteractable) return;
         
         CursorManager.Instance.SetPointCursor();
         highlightMaterial = true;
     }
     void OnMouseExit()
     {
-        if(!IsInteractable) return;
+        if(!IsGlobalInteractable) return;
 
         if(isPressing) return;
         highlightMaterial = false;
@@ -47,7 +55,7 @@ public class SpinnerCollider : MonoBehaviour
 
     private void OnMouseDown()
     {
-        if(!IsInteractable) return;
+        if(!IsGlobalInteractable || !IsInteractable) return;
 
         OnPointerDown?.Invoke();
         highlightMaterial = true;
@@ -55,7 +63,7 @@ public class SpinnerCollider : MonoBehaviour
     }
     private void OnMouseUp()
     {
-        if(!IsInteractable) return;
+        if(!IsGlobalInteractable) return;
 
         OnPointerUp?.Invoke();
         highlightMaterial = false;

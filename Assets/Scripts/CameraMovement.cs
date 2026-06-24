@@ -46,6 +46,8 @@ public class CameraMovement : Singleton<CameraMovement>
         base.Awake();
         
         GameManager.OnResetLevel += ResetLevel;
+
+        Vampire.OnWin += OnVampireWin;
         Vampire.OnDeath += OnVampireDeath;
 
         PathFollower.OnReachCheckpoint += ReachCheckpoint;
@@ -88,6 +90,7 @@ public class CameraMovement : Singleton<CameraMovement>
         }
     }
 
+    private void OnVampireWin(Vampire vampire) => OnVampireDeath(vampire);
     private void OnVampireDeath(Vampire vampire) => ForceCamera(vampire.transform.position, deathClosenessMoveDuration, deathClosenessZoom, deathClosenessZoomSpeed, true);
 
     public void ForceCamera(Vector2 position, float moveDuration, float zoom, float zoomSpeed, bool resetCameraPosition = true)

@@ -20,7 +20,7 @@ public class Tutorial1 : MonoBehaviour
 
     private IEnumerator Part1Coroutine()
     {
-        SpinnerCollider.IsInteractable = false;
+        SpinnerCollider.IsGlobalInteractable = false;
         pathFollower.IsAllowedToMove = false;
 
         yield return new WaitForSeconds(0.5f);      
@@ -85,7 +85,7 @@ public class Tutorial1 : MonoBehaviour
 
         CameraMovement.Instance.UnforceCamera();
 
-        SpinnerCollider.IsInteractable = true;
+        SpinnerCollider.IsGlobalInteractable = true;
         pathFollower.IsAllowedToMove = true;
         Part2PotentialWait();
     }
@@ -118,7 +118,7 @@ public class Tutorial1 : MonoBehaviour
 
     private IEnumerator Part3Coroutine()
     {
-        SpinnerCollider.IsInteractable = false;
+        SpinnerCollider.IsGlobalInteractable = false;
         pathFollower.IsAllowedToMove = false;
         
         yield return WaitForCamera(part3Spinner.transform.position);
@@ -132,7 +132,7 @@ public class Tutorial1 : MonoBehaviour
         yield return WaitForCamera(pathFollower.transform.position + (Vector3.up * 8), zoom: 20);
         CameraMovement.Instance.UnforceCamera();
 
-        SpinnerCollider.IsInteractable = true;
+        SpinnerCollider.IsGlobalInteractable = true;
         pathFollower.IsAllowedToMove = true;
     }
 

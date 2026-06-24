@@ -15,13 +15,13 @@ public class SpinMechanic : Spinner
     [SerializeField] private SpinDirection lockedDirection = SpinDirection.Right;
     [Space]
     [SerializeField, Tooltip("If it's less or equal to 0, then you can rotate infinitely")] private int maxRotations = 5;
-    [ReadOnly, SerializeField] private int rotationCounter;
+    [ReadOnly, SerializeField] protected int rotationCounter;
 
     private Vector2 previousDirection;
     private Vector2 startMousePosition;
 
     private float accumulatedRotation;
-    private float visualRotation;
+    protected float visualRotation;
 
     protected override void Awake()
     {
@@ -30,7 +30,7 @@ public class SpinMechanic : Spinner
         GameManager.OnResetLevel += ResetLevel;
     }
 
-    private void ResetLevel()
+    protected virtual void ResetLevel()
     {
         accumulatedRotation = 0;
         visualRotation = 0;
@@ -40,7 +40,7 @@ public class SpinMechanic : Spinner
         previousDirection = Vector2.zero;
         startMousePosition = Vector2.zero;
 
-        SetZRotation(visualRotation);
+        UpdateVisuals();
     }
 
     protected override void OnPointerDown()
@@ -49,7 +49,7 @@ public class SpinMechanic : Spinner
         startMousePosition = Utilities.Get2DMouseWorldPosition();
     }
 
-    private void Update()
+    protected virtual void Update()
     {
         if(!IsSelected) return;
         
@@ -89,14 +89,19 @@ public class SpinMechanic : Spinner
                     }
                 }
                 
-                SetZRotation(visualRotation);
-
                 float rotation = 360; // How much you got to spin for a spin to count :D
                 if (Mathf.Abs(accumulatedRotation) >= rotation) HandleSpin();
-            }    
+
+                UpdateVisuals();
+            }
         }
 
         previousDirection = currentDirection;
+    }
+
+    protected virtual void UpdateVisuals()
+    {
+        SetZRotation(visualRotation);
     }
 
     private void SetZRotation(float value)
@@ -104,7 +109,7 @@ public class SpinMechanic : Spinner
         if(rotatingTransform != null) rotatingTransform.eulerAngles = new Vector3(rotatingTransform.eulerAngles.x, rotatingTransform.eulerAngles.y, value);
     }
 
-    private void HandleSpin()
+    protected virtual void HandleSpin()
     {
         rotationCounter++;
         accumulatedRotation -= Mathf.Sign(accumulatedRotation) * 360;

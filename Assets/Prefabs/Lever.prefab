@@ -231,6 +231,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Lever
   spinnerCollider: {fileID: 2547202951844050338}
+  setAndDone: 0
   minAngle: -45
   maxAngle: 45
   rotationSpeed: 5

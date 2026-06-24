@@ -8,7 +8,10 @@ public abstract class Spinner : MonoBehaviour
     public static event Action<Spinner> OnUnselected;
     
     [SerializeField] private SpinnerCollider spinnerCollider;
+    [SerializeField, Tooltip("When it hits 1, can it be altered?")] private bool setAndDone = true;
     public bool IsSelected { get; private set; }
+
+    protected bool IsFinished => GetProgress() >= 1 && setAndDone;
 
     protected virtual void Awake()
     {
@@ -16,8 +19,19 @@ public abstract class Spinner : MonoBehaviour
         spinnerCollider.OnPointerUp += PointerUp;
     }
 
+    void LateUpdate()
+    {
+        if(IsSelected && IsFinished)
+        {
+            PointerUp();
+            spinnerCollider.IsInteractable = false;
+        }
+    }
+
     public void PointerDown()
     {
+        if(IsFinished) return;
+        
         OnPointerDown();
         IsSelected = true;
         OnSelected?.Invoke(this);

@@ -3,6 +3,7 @@ using System.Collections;
 using Sirenix.OdinInspector;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -35,9 +36,11 @@ public class GameManager : MonoBehaviour
         Time.timeScale = timeScale;
     }
 
+    [Button]
     private void OnVampireWin(Vampire vamp)
     {
-        
+        PlayerPrefs.SetInt(SceneManager.GetActiveScene().name, 1);
+        StartCoroutine(TransitionToNewScene("LevelSelect"));
     }
 
     private void OnVampireDeath(Vampire vamp) => StartCoroutine(DeathScreen());
@@ -49,16 +52,36 @@ public class GameManager : MonoBehaviour
         audioSource.PlayOneShot(deathSound);
         
         animator.SetTrigger("Lose");
-        yield return null;
+        
+        yield return new WaitUntil(() => animator.GetCurrentAnimatorStateInfo(0).IsName("Lose"));
 
-        float clipDuration = animator.GetCurrentAnimatorStateInfo(0).length;
+        var stateInfo = animator.GetCurrentAnimatorStateInfo(0);
+        float clipDuration = stateInfo.length / animator.speed;
         yield return new WaitForSeconds(clipDuration);
 
-        //while(!Keyboard.current.rKey.wasPressedThisFrame) yield return null;
         animator.SetTrigger("Reset");
         OnResetLevel?.Invoke();
         
         //Reset requirements
         cameraReached = false;
+    }
+
+    private IEnumerator TransitionToNewScene(string sceneName)
+    {
+        animator.SetTrigger("Lose");
+
+        yield return new WaitUntil(() => animator.GetCurrentAnimatorStateInfo(0).IsName("Lose"));
+
+        var stateInfo = animator.GetCurrentAnimatorStateInfo(0);
+        float clipDuration = stateInfo.length / animator.speed;
+        yield return new WaitForSeconds(clipDuration);
+
+        animator.SetTrigger("Reset");
+
+        animator.transform.SetParent(null);
+        DontDestroyOnLoad(animator.gameObject);
+        SceneManager.activeSceneChanged += (s1, s2) => Destroy(animator.gameObject, 5);
+        
+        SceneManager.LoadScene(sceneName);
     }
 }
