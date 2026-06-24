@@ -19,13 +19,22 @@ public class LevelSelectOption : MonoBehaviour
 
         lockedPanel.SetActive(!isUnlocked);
         button.interactable = isUnlocked;
+    }
 
+    void OnEnable()
+    {
         button.onClick.AddListener(OnClickButton);
+    }
+
+    void OnDisable()
+    {
+        button.onClick.RemoveListener(OnClickButton);
     }
 
     private void OnClickButton()
     {
         Debug.Log($"Changing scene to: {sceneName}");
-        SceneManager.LoadScene(sceneName);
+        foreach(var button in FindObjectsByType<Button>()) button.interactable = false;
+        StartCoroutine(TransitionManager.Instance.TransitionToNewScene(sceneName));
     }
 }

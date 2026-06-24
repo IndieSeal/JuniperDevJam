@@ -23,14 +23,7 @@ public class SpinMechanic : Spinner
     private float accumulatedRotation;
     protected float visualRotation;
 
-    protected override void Awake()
-    {
-        base.Awake();
-
-        GameManager.OnResetLevel += ResetLevel;
-    }
-
-    protected virtual void ResetLevel()
+    protected override void OnLevelReset()
     {
         accumulatedRotation = 0;
         visualRotation = 0;

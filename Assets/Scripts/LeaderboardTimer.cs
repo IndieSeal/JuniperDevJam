@@ -4,9 +4,14 @@ public class LeaderboardTimer : MonoBehaviour
 {
     private float timer;
 
-    void Awake()
+    void OnEnable()
     {
         GameManager.OnResetLevel += ResetLevel;
+    }
+
+    void OnDisable()
+    {
+        GameManager.OnResetLevel -= ResetLevel;
     }
 
     void Update()

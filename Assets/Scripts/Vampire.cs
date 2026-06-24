@@ -10,9 +10,14 @@ public class Vampire : MonoBehaviour
     [Header("Components")]
     [SerializeField] private Animator animator;
 
-    void Awake()
+    void OnEnable()
     {
         GameManager.OnResetLevel += ResetLevel;
+    }
+    
+    void OnDisable()
+    {
+        GameManager.OnResetLevel -= ResetLevel;
     }
 
     void OnCollisionEnter2D(Collision2D collision)

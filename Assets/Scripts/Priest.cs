@@ -5,27 +5,27 @@ public class Priest : SpinMechanic
     [SerializeField] private ParticleSystem waterParticles;
     private bool canAttack = true;
 
-    [SerializeField] private Vector2 grabOffset;
     [SerializeField] private float priestRotationRange = 4;
     private Vector2 grabOriginalPosition;
+    private Vector2 initialGrabOffset;
 
     protected override void UpdateVisuals()
     {
-        Vector2 newPosition = Utilities.Get2DMouseWorldPosition() + grabOffset;
-        Vector2 center = grabOriginalPosition;
-        transform.position = Vector2.ClampMagnitude(newPosition - center, priestRotationRange) + center;
+        Vector2 newPosition = Utilities.Get2DMouseWorldPosition() - initialGrabOffset;
+        transform.position = Vector2.ClampMagnitude(newPosition - grabOriginalPosition, priestRotationRange) + grabOriginalPosition;
     }
 
     protected override void HandleSpin()
     {
         base.HandleSpin();
 
-        waterParticles.Play();
+        Instantiate(waterParticles, waterParticles.transform.position, Quaternion.identity).gameObject.SetActive(true);
     }
 
     protected override void OnPointerDown()
     {
         grabOriginalPosition = transform.position;
+        initialGrabOffset = (Vector3)Utilities.Get2DMouseWorldPosition() - transform.position;
         base.OnPointerDown();
     }
 

@@ -14,19 +14,12 @@ public class Lever : Spinner
     private float targetAngle;
     public bool State { get; private set; } // Off = false, On = true :D!
 
-    protected override void Awake()
-    {
-        base.Awake();
-
-        GameManager.OnResetLevel += ResetLevel;
-    }
-
     void Start()
     {
-        ResetLevel();
+        OnLevelReset();
     }
 
-    private void ResetLevel()
+    protected override void OnLevelReset()
     {
         SetZEulerAngle(maxAngle);
         targetAngle = maxAngle;

@@ -11,12 +11,22 @@ public abstract class Spinner : MonoBehaviour
     [SerializeField, Tooltip("When it hits 1, can it be altered?")] private bool setAndDone = true;
     public bool IsSelected { get; private set; }
 
-    protected bool IsFinished => GetProgress() >= 1 && setAndDone;
+    public bool IsFinished => GetProgress() >= 1 && setAndDone;
 
-    protected virtual void Awake()
+    protected virtual void OnEnable()
     {
         spinnerCollider.OnPointerDown += PointerDown;
         spinnerCollider.OnPointerUp += PointerUp;
+
+        GameManager.OnResetLevel += OnLevelReset;
+    }
+
+    protected virtual void OnDisable()
+    {
+        spinnerCollider.OnPointerDown -= PointerDown;
+        spinnerCollider.OnPointerUp -= PointerUp;
+
+        GameManager.OnResetLevel -= OnLevelReset;
     }
 
     void LateUpdate()
@@ -24,7 +34,7 @@ public abstract class Spinner : MonoBehaviour
         if(IsSelected && IsFinished)
         {
             PointerUp();
-            spinnerCollider.IsInteractable = false;
+            spinnerCollider.OnFinish();
         }
     }
 
@@ -48,4 +58,6 @@ public abstract class Spinner : MonoBehaviour
     protected virtual void OnPointerDown() {}
     protected virtual void OnPointerUp() {}
     public abstract float GetProgress();
+
+    protected abstract void OnLevelReset();
 }

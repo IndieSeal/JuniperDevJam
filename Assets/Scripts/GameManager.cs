@@ -4,16 +4,21 @@ using Sirenix.OdinInspector;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
     public static event Action OnResetLevel;
 
+    [Header("Settings Menu")]
+    [SerializeField] private GameObject settingsMenu;
+    [SerializeField] private Button levelSelectBtn;
+    [SerializeField] private Button restartEntirely;
+
     [MinValue(0.5f), MaxValue(3f), SerializeField, DisableInEditorMode, OnValueChanged("ChangeTimeScale")] private float timeScale = 1;
 
     [Header("Components")]
     [SerializeField] private AudioSource audioSource;
-    [SerializeField] private Animator animator;
 
     [FoldoutGroup("Audio"), SerializeField] private AudioClip winSound;
     [FoldoutGroup("Audio"), SerializeField] private AudioClip deathSound;
@@ -23,10 +28,39 @@ public class GameManager : MonoBehaviour
     
     void Awake()
     {
+        settingsMenu.SetActive(false);
+    }
+
+    void OnEnable()
+    {
         Vampire.OnDeath += OnVampireDeath;
         Vampire.OnWin += OnVampireWin;
 
-        CameraMovement.CameraReachedDeathDestination += () => cameraReached = true;
+        CameraMovement.CameraReachedDeathDestination += OnCameraReachDestination;
+
+        levelSelectBtn.onClick.AddListener(GoToLevelSelect);
+        restartEntirely.onClick.AddListener(RestartEntirely);
+    }
+
+    void OnDisable()
+    {
+        Vampire.OnDeath -= OnVampireDeath;
+        Vampire.OnWin -= OnVampireWin;
+
+        CameraMovement.CameraReachedDeathDestination -= OnCameraReachDestination;
+
+        levelSelectBtn.onClick.RemoveListener(GoToLevelSelect);
+        restartEntirely.onClick.RemoveListener(RestartEntirely);
+    }
+
+    private void OnCameraReachDestination() => cameraReached = true;
+
+    private void GoToLevelSelect() => StartCoroutine(TransitionManager.Instance.TransitionToNewScene("LevelSelect"));
+    private void RestartEntirely() => StartCoroutine(TransitionManager.Instance.TransitionToNewScene(SceneManager.GetActiveScene().name));
+
+    void Update()
+    {
+        if(Keyboard.current.rKey.wasPressedThisFrame) settingsMenu.SetActive(!settingsMenu.activeSelf);
     }
 
     private void ChangeTimeScale()
@@ -40,7 +74,7 @@ public class GameManager : MonoBehaviour
     private void OnVampireWin(Vampire vamp)
     {
         PlayerPrefs.SetInt(SceneManager.GetActiveScene().name, 1);
-        StartCoroutine(TransitionToNewScene("LevelSelect"));
+        GoToLevelSelect();
     }
 
     private void OnVampireDeath(Vampire vamp) => StartCoroutine(DeathScreen());
@@ -51,37 +85,15 @@ public class GameManager : MonoBehaviour
         
         audioSource.PlayOneShot(deathSound);
         
-        animator.SetTrigger("Lose");
-        
-        yield return new WaitUntil(() => animator.GetCurrentAnimatorStateInfo(0).IsName("Lose"));
-
-        var stateInfo = animator.GetCurrentAnimatorStateInfo(0);
-        float clipDuration = stateInfo.length / animator.speed;
-        yield return new WaitForSeconds(clipDuration);
-
-        animator.SetTrigger("Reset");
-        OnResetLevel?.Invoke();
+        yield return ResetLevel();
         
         //Reset requirements
         cameraReached = false;
     }
 
-    private IEnumerator TransitionToNewScene(string sceneName)
+    private IEnumerator ResetLevel()
     {
-        animator.SetTrigger("Lose");
-
-        yield return new WaitUntil(() => animator.GetCurrentAnimatorStateInfo(0).IsName("Lose"));
-
-        var stateInfo = animator.GetCurrentAnimatorStateInfo(0);
-        float clipDuration = stateInfo.length / animator.speed;
-        yield return new WaitForSeconds(clipDuration);
-
-        animator.SetTrigger("Reset");
-
-        animator.transform.SetParent(null);
-        DontDestroyOnLoad(animator.gameObject);
-        SceneManager.activeSceneChanged += (s1, s2) => Destroy(animator.gameObject, 5);
-        
-        SceneManager.LoadScene(sceneName);
+        yield return TransitionManager.Instance.Transition();
+        OnResetLevel?.Invoke();
     }
 }

@@ -11,8 +11,17 @@ public class WaterGate : MonoBehaviour
 
     void Awake()
     {
-        GameManager.OnResetLevel += ResetLevel;
         ResetLevel();
+    }
+
+    void OnEnable()
+    {
+        GameManager.OnResetLevel += ResetLevel;
+    }
+
+    void OnDisable()
+    {
+        GameManager.OnResetLevel -= ResetLevel;
     }
 
     void Update()

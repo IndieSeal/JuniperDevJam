@@ -320,6 +320,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SpinMechanic
   spinnerCollider: {fileID: 3480607592114744895}
+  setAndDone: 1
   rotatingTransform: {fileID: 0}
   lockedDirection: 2
   maxRotations: 3

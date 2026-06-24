@@ -19,10 +19,16 @@ public class PathFollower : MonoBehaviour
     [Header("Animation")]
     [SerializeField] private BouncyMation bouncyMation;
 
-    void Awake()
+    void OnEnable()
     {
         GameManager.OnResetLevel += ResetPath;
         Vampire.OnDeath += Stop;
+    }
+
+    void OnDisable()
+    {
+        GameManager.OnResetLevel -= ResetPath;
+        Vampire.OnDeath -= Stop;
     }
 
     void Start()

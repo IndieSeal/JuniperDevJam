@@ -7,10 +7,16 @@ public class SpinTrail : MonoBehaviour
     [SerializeField] private TrailRenderer trail;
     private Spinner currentSource;
 
-    void Awake()
+    void OnEnable()
     {
         Spinner.OnSelected += UpdateTrail;
         Spinner.OnUnselected += RemoveTrail;
+    }
+
+    void OnDisable()
+    {
+        Spinner.OnSelected -= UpdateTrail;
+        Spinner.OnUnselected -= RemoveTrail;
     }
 
     void Update()

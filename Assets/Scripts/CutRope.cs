@@ -9,9 +9,14 @@ public class CutRope : MonoBehaviour
 
     [SerializeField] private Spinner spinner;
 
-    void Awake()
+    void OnEnable()
     {
         GameManager.OnResetLevel += ResetLevel;
+    }
+
+    void OnDisable()
+    {
+        GameManager.OnResetLevel -= ResetLevel;
     }
 
     private void ResetLevel()
@@ -22,14 +27,11 @@ public class CutRope : MonoBehaviour
 
     void Update()
     {
-        bool hasCompleted = spinner.GetProgress() >= 1;
-        if(hasCompleted && ropePhysicsInstance == null)
+        if(spinner.IsFinished && ropePhysicsInstance == null)
         {
             ropePhysicsInstance = Instantiate(ropePhysicsReference, ropePhysicsReference.transform.position, ropePhysicsReference.transform.rotation);
             ropePhysicsInstance.SetActive(true);
             fakeRope.gameObject.SetActive(false);
-
-            spinner.PointerUp();
         }
     }
 }

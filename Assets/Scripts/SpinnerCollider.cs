@@ -28,6 +28,15 @@ public class SpinnerCollider : MonoBehaviour
         IsInteractable = true;
     }
 
+    public void OnFinish()
+    {
+        IsInteractable = false;
+        highlightMaterial = false;
+        isPressing = false;
+
+        CursorManager.Instance.SetNormalCursor();
+    }
+
     void Update()
     {
         if(spriteRenderer == null) return;

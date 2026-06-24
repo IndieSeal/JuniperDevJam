@@ -45,13 +45,6 @@ public class CameraMovement : Singleton<CameraMovement>
     {
         base.Awake();
         
-        GameManager.OnResetLevel += ResetLevel;
-
-        Vampire.OnWin += OnVampireWin;
-        Vampire.OnDeath += OnVampireDeath;
-
-        PathFollower.OnReachCheckpoint += ReachCheckpoint;
-        
         myCam = GetComponent<CinemachineCamera>();
         bounds = myCam.GetComponent<CinemachineConfiner2D>();
         
@@ -62,11 +55,25 @@ public class CameraMovement : Singleton<CameraMovement>
     private void OnEnable()
     {
         moveAction.action.Enable();
+
+        GameManager.OnResetLevel += ResetLevel;
+
+        Vampire.OnWin += OnVampireWin;
+        Vampire.OnDeath += OnVampireDeath;
+
+        PathFollower.OnReachCheckpoint += ReachCheckpoint;
     }
 
     private void OnDisable()
     {
         moveAction.action.Disable();
+
+        GameManager.OnResetLevel -= ResetLevel;
+
+        Vampire.OnWin -= OnVampireWin;
+        Vampire.OnDeath -= OnVampireDeath;
+
+        PathFollower.OnReachCheckpoint -= ReachCheckpoint;
     }
 
     private void Update()

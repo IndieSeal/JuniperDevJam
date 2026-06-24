@@ -14,8 +14,16 @@ public class Gate : MonoBehaviour
     void Awake()
     {        
         originalPosition = transform.position;
+    }
 
+    void OnEnable()
+    {
         GameManager.OnResetLevel += ResetLevel;
+    }
+
+    void OnDisable()
+    {
+        GameManager.OnResetLevel -= ResetLevel;
     }
 
     void Update()
