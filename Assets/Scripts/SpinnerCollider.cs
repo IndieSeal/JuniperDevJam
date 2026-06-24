@@ -15,6 +15,11 @@ public class SpinnerCollider : MonoBehaviour
     private bool highlightMaterial;
     private bool isPressing;
 
+    void Awake()
+    {
+        if(spriteRenderer != null) spriteRenderer.material.DisableKeyword("OUTBASE_ON");
+    }
+
     void Update()
     {
         if(spriteRenderer == null) return;

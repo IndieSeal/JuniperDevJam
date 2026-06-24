@@ -1,15 +1,15 @@
 fileFormatVersion: 2
-guid: b3a6aee510b6e16cf9dab428b6a61210
+guid: ec9ffe145f4591adb9398533bbbec5ad
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2308911290410915
-    second: gauntlet_point_32_0
+      213: 5273718215123251255
+    second: gauntlet_open_32_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
     sRGBTexture: 1
     linearTexture: 0
     fadeOut: 0
@@ -46,7 +46,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -57,7 +57,7 @@ TextureImporter:
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 0
+  textureType: 8
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -126,7 +126,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: gauntlet_point_32_0
+      name: gauntlet_open_32_0
       rect:
         serializedVersion: 2
         x: 0
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d5897b2be0cc7fff0800000000000000
-      internalID: -2308911290410915
+      spriteID: 730bde976c2003940800000000000000
+      internalID: 5273718215123251255
       vertices: []
       indices: 
       edges: []
@@ -151,7 +151,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      gauntlet_point_32_0: -2308911290410915
+      gauntlet_open_32_0: 5273718215123251255
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

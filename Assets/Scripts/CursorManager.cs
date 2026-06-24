@@ -1,9 +1,13 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
+using UnityEngine.UI;
 
 public class CursorManager : Singleton<CursorManager>
 {
-    [SerializeField] private Texture2D normalCursor;
-    [SerializeField] private Texture2D pointCursor;
+    [SerializeField] private Image cursor;
+    
+    [SerializeField] private Sprite normalCursor;
+    [SerializeField] private Sprite pointCursor;
 
     protected override void Awake()
     {
@@ -12,12 +16,27 @@ public class CursorManager : Singleton<CursorManager>
         SetNormalCursor();
     }
 
-    public void SetNormalCursor()
+    void Start()
     {
-        Cursor.SetCursor(normalCursor, Vector2.zero, CursorMode.Auto);
+        Cursor.visible = false;
     }
-    public void SetPointCursor()
+
+    public void SetNormalCursor() => SetCursor(normalCursor, Vector2.zero);
+    public void SetPointCursor() => SetCursor(pointCursor, Vector2.zero);
+
+    void Update()
     {
-        Cursor.SetCursor(pointCursor, Vector2.zero, CursorMode.Auto);
+        cursor.rectTransform.position = Mouse.current.position.ReadValue();
+    }
+
+    public void SetCursor(Sprite cursorTexture, Vector2 hotspot)
+    {
+        cursor.sprite = cursorTexture;
+        
+        /*#if UNITY_WEBGL && !UNITY_EDITOR
+            Cursor.SetCursor(cursorTexture, hotspot, CursorMode.ForceSoftware);
+        #else
+            Cursor.SetCursor(cursorTexture, hotspot, CursorMode.Auto);
+        #endif*/
     }
 }

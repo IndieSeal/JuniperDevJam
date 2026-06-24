@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: b3a6aee510b6e16cf9dab428b6a61210
+guid: a9f276f6269e67e3eaf5228b0eb61c0c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2308911290410915
-    second: gauntlet_point_32_0
+      213: -2270322075861972769
+    second: NullCursor_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -72,7 +72,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 32
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -126,12 +126,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: gauntlet_point_32_0
+      name: NullCursor_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 32
+        width: 23
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d5897b2be0cc7fff0800000000000000
-      internalID: -2308911290410915
+      spriteID: fd80586c9123e70e0800000000000000
+      internalID: -2270322075861972769
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      gauntlet_point_32_0: -2308911290410915
+      NullCursor_0: -2270322075861972769
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
