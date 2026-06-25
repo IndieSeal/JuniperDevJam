@@ -47,6 +47,7 @@ public class Vampire : MonoBehaviour
     {
         if(!collision.CompareTag("KillBox") || isDead) return;
 
+        GetComponent<Collider2D>().enabled = false;
         OnDeath?.Invoke(this);
         animator.SetTrigger("Kill");
         isDead = true;
@@ -54,6 +55,7 @@ public class Vampire : MonoBehaviour
 
     private void ResetLevel()
     {
+        GetComponent<Collider2D>().enabled = true;
         animator.SetTrigger("Reset");
         isDead = false;
     }

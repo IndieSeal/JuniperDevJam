@@ -18,7 +18,7 @@ public abstract class Spinner : MonoBehaviour
         spinnerCollider.OnPointerDown += PointerDown;
         spinnerCollider.OnPointerUp += PointerUp;
 
-        GameManager.OnResetLevel += OnLevelReset;
+        GameManager.OnResetLevel += LevelReset;
     }
 
     protected virtual void OnDisable()
@@ -26,18 +26,12 @@ public abstract class Spinner : MonoBehaviour
         spinnerCollider.OnPointerDown -= PointerDown;
         spinnerCollider.OnPointerUp -= PointerUp;
 
-        GameManager.OnResetLevel -= OnLevelReset;
+        GameManager.OnResetLevel -= LevelReset;
     }
 
     void LateUpdate()
     {
-        if(IsSelected && IsFinished)
-        {
-            PointerUp();
-            spinnerCollider.OnFinish();
-
-            OnFinish();
-        }
+        if(IsFinished) ForceUnselect();
     }
 
     public void PointerDown()
@@ -55,6 +49,22 @@ public abstract class Spinner : MonoBehaviour
         OnPointerUp();
         IsSelected = false;
         OnUnselected?.Invoke(this);
+    }
+
+    private void LevelReset()
+    {
+        ForceUnselect();
+        OnLevelReset();
+    }
+
+    private void ForceUnselect()
+    {
+        if(!IsSelected) return;
+        
+        PointerUp();
+        spinnerCollider.OnFinish();
+
+        OnFinish();
     }
 
     protected virtual void OnFinish() {}

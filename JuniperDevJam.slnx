@@ -8,8 +8,8 @@
   <Project Path="CFXRRuntime.csproj" />
   <Project Path="AllIn1SpriteShaderAssembly.csproj" />
   <Project Path="DrawXXL-Editor.csproj" />
-  <Project Path="Assembly-CSharp-firstpass.csproj" />
   <Project Path="ToonyColorsPro.Demo.Editor.csproj" />
+  <Project Path="Assembly-CSharp-firstpass.csproj" />
   <Project Path="Febucci.TextAnimator.TMP.Runtime.csproj" />
   <Project Path="Febucci.TextAnimator.Demo.Runtime.csproj" />
   <Project Path="Febucci.Attributes.Runtime.csproj" />

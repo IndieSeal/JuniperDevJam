@@ -1,11 +1,11 @@
 {
   "dependencies": {
-    "com.lootlocker.lootlockersdk": {
-      "version": "https://github.com/LootLocker/unity-sdk.git",
+    "com.daniel-geo.unityhackatime": {
+      "version": "https://github.com/daniel-geo/unity-hackatime.git#package",
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "03a56201424022a43c46f6f557eaeda7600045c7"
+      "hash": "5ac210a9a287428cb876ce9ea4ef14fe31e115b7"
     },
     "com.unity.2d.animation": {
       "version": "14.0.4",

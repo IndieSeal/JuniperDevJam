@@ -1,15 +1,124 @@
+using System.Collections;
+using System.Collections.Generic;
+using Sirenix.OdinInspector;
 using UnityEngine;
 
 public class Priest : SpinMechanic
 {
+    [Header("Vampire Find")]
+    [SerializeField] private float findRange = 8;
+    [SerializeField] private float foundRange = 15;
+    [SerializeField] private float startAttackDelay = 0.6f;
+    [SerializeField] private ParticleSystem alertParticle;
+
+    [Header("Attack")]
+    [SerializeField] private bool attackOnce = false;
+    [SerializeField, HideIf("attackOnce")] private float repeatAttackDelay = 4;
+    [Space]
+    [SerializeField] private GameObject attackPrefab;
+    [SerializeField] private Transform spawnPosition;
+    [SerializeField] private bool goTowardsPlayer = true;
+    [SerializeField, ShowIf("goTowardsPlayer")] private float velocity = 6;
+    private bool hasAttacked;
+    private float timer;
+    private List<GameObject> instancesOfAttacks = new List<GameObject>();
+    
+    [SerializeField] protected Animator animator;
+    [SerializeField] protected AudioSource audioSource;
+    
     [SerializeField] private ParticleSystem waterParticles;
     [SerializeField] private float priestParticleRange = 2;
     protected bool isWithinRange;
-    protected bool canAttack = true;
 
     [SerializeField] private float priestRotationRange = 4;
     private Vector2 grabOriginalPosition;
     private Vector2 initialGrabOffset;
+    private Vector2 initialPosition;
+
+    [FoldoutGroup("Animation Names"), SerializeField] private string attackAnimation = "Attack";
+
+    void Start()
+    {
+        initialPosition = transform.position;
+    }
+
+    protected override void Update()
+    {
+        base.Update();
+
+        if(IsSelected || IsFinished) return;
+
+        bool newWithinRange = false;
+        Vampire vampire = null;
+        float range = hasAttacked ? foundRange : findRange;
+        foreach(Collider2D collider in Physics2D.OverlapCircleAll(transform.position, range))
+        {
+            if(collider.TryGetComponent(out vampire))
+            {
+                newWithinRange = true;
+                break;
+            }
+        }
+
+        if(isWithinRange != newWithinRange && newWithinRange == true) Alert();
+        isWithinRange = newWithinRange;
+        
+        if(!isWithinRange || (attackOnce && hasAttacked)) return;
+
+        timer += Time.deltaTime;
+        float delay = hasAttacked ? repeatAttackDelay : startAttackDelay;
+        if(timer >= delay)
+        {
+            Attack(vampire);
+            timer = 0;
+        }
+    }
+
+    protected virtual void Alert()
+    {
+        animator.SetTrigger("Alert");
+        alertParticle.Play();
+    }
+
+    protected virtual void Attack(Vampire vamp)
+    {
+        animator.SetTrigger(attackAnimation);
+
+        var instance = Instantiate(attackPrefab, spawnPosition.position, Quaternion.identity);
+        instancesOfAttacks.Add(instance);
+        hasAttacked = true;
+
+        if(goTowardsPlayer) StartCoroutine(MoveTowards(instance.transform, (vamp.transform.position - instance.transform.position).normalized));
+    }
+
+    protected IEnumerator MoveTowards(Transform instance, Vector2 direction, float destroyTime = 20)
+    {
+        float timePassed = 0;
+        while(timePassed < destroyTime)
+        {
+            instance.position += (Vector3)direction * Time.deltaTime * velocity;
+            timePassed += Time.deltaTime;
+            yield return null;
+        }
+
+        instancesOfAttacks.Remove(instance.gameObject);
+        Destroy(instance);
+    }
+
+    protected override void OnLevelReset()
+    {
+        base.OnLevelReset();
+
+        StopAllCoroutines();
+        foreach(GameObject go in instancesOfAttacks) Destroy(go);
+
+        hasAttacked = false;
+        isWithinRange = false;
+        timer = 0;
+
+        transform.position = initialPosition;
+        animator.SetTrigger("Reset");
+    }
 
     protected override void UpdateVisuals()
     {
@@ -35,11 +144,23 @@ public class Priest : SpinMechanic
         grabOriginalPosition = transform.position;
         initialGrabOffset = (Vector3)Utilities.Get2DMouseWorldPosition() - transform.position;
         base.OnPointerDown();
+
+        timer = 0;
     }
 
     protected override void OnPointerUp()
     {
         transform.position = grabOriginalPosition;
         base.OnPointerUp();
+    }
+
+    void OnDrawGizmos()
+    {
+        DrawXXL.DrawBasics2D.Circle(transform.position, findRange, Color.red);
+    }
+
+    void OnDrawGizmosSelected()
+    {
+        DrawXXL.DrawBasics2D.Circle(transform.position, foundRange, Color.violetRed);
     }
 }
