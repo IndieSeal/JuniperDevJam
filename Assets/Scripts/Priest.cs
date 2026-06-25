@@ -16,6 +16,7 @@ public class Priest : SpinMechanic
     [SerializeField, HideIf("attackOnce")] private float repeatAttackDelay = 4;
     [Space]
     [SerializeField] private GameObject attackPrefab;
+    [SerializeField] private float destroyTime = 20;
     [SerializeField] private Transform spawnPosition;
     [SerializeField] private bool goTowardsPlayer = true;
     [SerializeField, ShowIf("goTowardsPlayer")] private float velocity = 6;
@@ -36,6 +37,7 @@ public class Priest : SpinMechanic
     private Vector2 initialPosition;
 
     [FoldoutGroup("Animation Names"), SerializeField] private string attackAnimation = "Attack";
+    private bool playedAnimation;
 
     void Start()
     {
@@ -60,24 +62,33 @@ public class Priest : SpinMechanic
             }
         }
 
-        if(isWithinRange != newWithinRange && newWithinRange == true) Alert();
+        if(isWithinRange != newWithinRange)
+        {
+            if(!newWithinRange) animator.SetTrigger("Reset");
+        }
         isWithinRange = newWithinRange;
         
         if(!isWithinRange || (attackOnce && hasAttacked)) return;
 
         timer += Time.deltaTime;
+        if(!playedAnimation)
+        {
+            Alert();
+            playedAnimation = true;
+        }
         float delay = hasAttacked ? repeatAttackDelay : startAttackDelay;
         if(timer >= delay)
         {
             Attack(vampire);
             timer = 0;
+            playedAnimation = false;
         }
     }
 
     protected virtual void Alert()
     {
-        animator.SetTrigger("Alert");
         alertParticle.Play();
+        animator.SetTrigger("Alert");
     }
 
     protected virtual void Attack(Vampire vamp)
@@ -88,7 +99,8 @@ public class Priest : SpinMechanic
         instancesOfAttacks.Add(instance);
         hasAttacked = true;
 
-        if(goTowardsPlayer) StartCoroutine(MoveTowards(instance.transform, (vamp.transform.position - instance.transform.position).normalized));
+        //Vector2 direction =  (vamp.transform.position - instance.transform.position).normalized;
+        if(goTowardsPlayer) StartCoroutine(MoveTowards(instance.transform, vamp.transform, destroyTime));
     }
 
     protected IEnumerator MoveTowards(Transform instance, Vector2 direction, float destroyTime = 20)
@@ -97,6 +109,20 @@ public class Priest : SpinMechanic
         while(timePassed < destroyTime)
         {
             instance.position += (Vector3)direction * Time.deltaTime * velocity;
+            timePassed += Time.deltaTime;
+            yield return null;
+        }
+
+        instancesOfAttacks.Remove(instance.gameObject);
+        Destroy(instance);
+    }
+
+    protected IEnumerator MoveTowards(Transform instance, Transform direction, float destroyTime = 20)
+    {
+        float timePassed = 0;
+        while(timePassed < destroyTime)
+        {
+            instance.position = Vector2.MoveTowards(instance.position, direction.position, velocity * Time.deltaTime);
             timePassed += Time.deltaTime;
             yield return null;
         }
@@ -117,6 +143,8 @@ public class Priest : SpinMechanic
         timer = 0;
 
         transform.position = initialPosition;
+
+        playedAnimation = false;
         animator.SetTrigger("Reset");
     }
 
@@ -151,6 +179,9 @@ public class Priest : SpinMechanic
     protected override void OnPointerUp()
     {
         transform.position = grabOriginalPosition;
+        isWithinRange = false;
+        animator.SetTrigger("Reset");
+
         base.OnPointerUp();
     }
 

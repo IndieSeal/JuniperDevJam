@@ -10336,11 +10336,12 @@ MonoBehaviour:
   startAttackDelay: 1.3
   alertParticle: {fileID: 747347517304868516}
   attackOnce: 0
-  repeatAttackDelay: 4
+  repeatAttackDelay: 1.7
   attackPrefab: {fileID: 3314729092030851505, guid: ec7dcca07f87d420c8f7d04abee12515, type: 3}
+  destroyTime: 20
   spawnPosition: {fileID: 4897524122549019964}
   goTowardsPlayer: 1
-  velocity: 6
+  velocity: 20
   animator: {fileID: 1049756293322690228}
   audioSource: {fileID: 7667456981208877404}
   waterParticles: {fileID: 4055207864048564573}

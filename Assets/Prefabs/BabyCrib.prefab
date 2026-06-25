@@ -10145,6 +10145,7 @@ MonoBehaviour:
   attackOnce: 1
   repeatAttackDelay: 4
   attackPrefab: {fileID: 6068534622473397586, guid: 0b4ea70cf7d16c2428ac95bbc208c79e, type: 3}
+  destroyTime: 999
   spawnPosition: {fileID: 3311350576775520846}
   goTowardsPlayer: 0
   velocity: 6
