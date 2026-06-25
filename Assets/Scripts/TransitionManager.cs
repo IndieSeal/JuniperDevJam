@@ -9,34 +9,46 @@ public class TransitionManager : Singleton<TransitionManager>
 
     public IEnumerator TransitionToNewScene(string sceneName)
     {
-        yield return Transition();
+        yield return Transition(false);
         
+        transform.SetParent(null);
         DontDestroyOnLoad(gameObject);
+        Instance = null;
 
         yield return null;
 
+        this.animator.SetTrigger("Reset");
         SceneManager.LoadScene(sceneName);
+        yield return null;
+
+        Debug.Log("Entered animation reset");
+
+        yield return null;
+
+        Debug.Log("Start to wait");
 
         yield return WaitForAnimation("Reset");
-        
+
+        Debug.Log("Waiting");
+
         Destroy(gameObject);
     }
 
-    public IEnumerator Transition(Action onTransitionShown = null)
+    public IEnumerator Transition(bool autoPlayReset = true, Action onTransitionShown = null)
     {
-        animator.SetTrigger("Lose");
+        this.animator.SetTrigger("Lose");
         yield return WaitForAnimation("Lose");
 
         onTransitionShown?.Invoke();
-        animator.SetTrigger("Reset");
+        if(autoPlayReset) this.animator.SetTrigger("Reset");
     }
 
     public IEnumerator WaitForAnimation(string animName)
     {
-        yield return new WaitUntil(() => animator.GetCurrentAnimatorStateInfo(0).IsName(animName));
+        while(!this.animator.GetCurrentAnimatorStateInfo(0).IsName(animName)) yield return null;
 
-        var stateInfo = animator.GetCurrentAnimatorStateInfo(0);
-        float clipDuration = stateInfo.length / animator.speed;
+        var stateInfo = this.animator.GetCurrentAnimatorStateInfo(0);
+        float clipDuration = stateInfo.length / this.animator.speed;
         yield return new WaitForSeconds(clipDuration);
     }
 }

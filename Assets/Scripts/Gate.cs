@@ -1,3 +1,4 @@
+using Sirenix.OdinInspector;
 using UnityEngine;
 
 public class Gate : MonoBehaviour
@@ -6,14 +7,29 @@ public class Gate : MonoBehaviour
     [SerializeField] private BoxCollider2D killBox;
     [SerializeField] private Spinner spinner;
 
+    [Header("Activation")]
+    [SerializeField] private bool percentageBasedMovement = false;
+    [SerializeField] private float activationThreshold = 0.8f;
+
     [Header("Move")]
+    [SerializeField] private bool useGlobalPosition = true;
     [SerializeField] private float gateMoveSpeed = 4;
     [SerializeField] private Vector2 maxExtraPosition = Vector2.up * 3;
     private Vector2 originalPosition;
 
+    protected Vector2 Position
+    {
+        get => useGlobalPosition ? transform.position : transform.localPosition;
+        set
+        {
+            if(useGlobalPosition) transform.position = value;
+            else transform.localPosition = value;
+        }
+    }
+
     void Awake()
     {        
-        originalPosition = transform.position;
+        originalPosition = Position;
     }
 
     void OnEnable()
@@ -29,21 +45,23 @@ public class Gate : MonoBehaviour
     void Update()
     {
         Vector2 targetPosition = originalPosition;
-        if(spinner.GetProgress() >= 0.8f)
+        if(spinner.GetProgress() >= activationThreshold)
         {
             targetPosition = originalPosition + maxExtraPosition; 
-            killBox.enabled = false;
+            SetKillBoxState(false);
         }
-        else
-        {
-            killBox.enabled = true;
-        }
+        else SetKillBoxState(true);
 
-        transform.position = Vector2.Lerp(transform.position, targetPosition, gateMoveSpeed * Time.deltaTime);
+        if(percentageBasedMovement) targetPosition = Vector2.Lerp(originalPosition, originalPosition + maxExtraPosition, spinner.GetProgress());
+        Position = Vector2.Lerp(Position, targetPosition, gateMoveSpeed * Time.deltaTime);
+    }
+    private void SetKillBoxState(bool state)
+    {
+        if(killBox != null) killBox.enabled = state;
     }
 
     private void ResetLevel()
     {
-        transform.position = originalPosition;
+        Position = originalPosition;
     }
 }

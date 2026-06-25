@@ -35,6 +35,8 @@ public abstract class Spinner : MonoBehaviour
         {
             PointerUp();
             spinnerCollider.OnFinish();
+
+            OnFinish();
         }
     }
 
@@ -54,6 +56,8 @@ public abstract class Spinner : MonoBehaviour
         IsSelected = false;
         OnUnselected?.Invoke(this);
     }
+
+    protected virtual void OnFinish() {}
 
     protected virtual void OnPointerDown() {}
     protected virtual void OnPointerUp() {}

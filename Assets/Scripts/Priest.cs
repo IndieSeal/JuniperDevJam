@@ -3,7 +3,9 @@ using UnityEngine;
 public class Priest : SpinMechanic
 {
     [SerializeField] private ParticleSystem waterParticles;
-    private bool canAttack = true;
+    [SerializeField] private float priestParticleRange = 2;
+    protected bool isWithinRange;
+    protected bool canAttack = true;
 
     [SerializeField] private float priestRotationRange = 4;
     private Vector2 grabOriginalPosition;
@@ -11,15 +13,21 @@ public class Priest : SpinMechanic
 
     protected override void UpdateVisuals()
     {
-        Vector2 newPosition = Utilities.Get2DMouseWorldPosition() - initialGrabOffset;
-        transform.position = Vector2.ClampMagnitude(newPosition - grabOriginalPosition, priestRotationRange) + grabOriginalPosition;
+        transform.position = GetClampedPosition(Utilities.Get2DMouseWorldPosition());
     }
 
     protected override void HandleSpin()
     {
         base.HandleSpin();
 
-        Instantiate(waterParticles, waterParticles.transform.position, Quaternion.identity).gameObject.SetActive(true);
+        Vector2 position = grabOriginalPosition + (Vector2.up * 5) + (Random.insideUnitCircle * priestParticleRange);
+        Instantiate(waterParticles, position, Quaternion.identity).gameObject.SetActive(true);
+    }
+
+    private Vector2 GetClampedPosition(Vector2 position)
+    {
+        Vector2 newPosition = position - initialGrabOffset;
+        return Vector2.ClampMagnitude(newPosition - grabOriginalPosition, priestRotationRange) + grabOriginalPosition;
     }
 
     protected override void OnPointerDown()
