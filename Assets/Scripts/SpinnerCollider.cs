@@ -7,6 +7,7 @@ public class SpinnerCollider : MonoBehaviour
 {
     public static bool IsGlobalInteractable { get; set; } = true;
     public bool IsInteractable { get; set; } = true;
+    [SerializeField] private bool isMineSpecificallyInteractable = true;
     
     public event Action OnPointerDown;
     public event Action OnPointerUp;
@@ -49,7 +50,7 @@ public class SpinnerCollider : MonoBehaviour
 
     void OnMouseEnter()
     {
-        if(!IsGlobalInteractable || !IsInteractable) return;
+        if(!IsGlobalInteractable || !IsInteractable || !isMineSpecificallyInteractable) return;
         
         CursorManager.Instance.SetPointCursor();
         highlightMaterial = true;
@@ -66,7 +67,7 @@ public class SpinnerCollider : MonoBehaviour
 
     private void OnMouseDown()
     {
-        if(!IsGlobalInteractable || !IsInteractable) return;
+        if(!IsGlobalInteractable || !IsInteractable || !isMineSpecificallyInteractable) return;
 
         OnPointerDown?.Invoke();
         highlightMaterial = true;

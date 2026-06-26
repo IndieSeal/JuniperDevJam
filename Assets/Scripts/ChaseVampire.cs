@@ -28,14 +28,9 @@ public class ChaseVampire : MonoBehaviour
         GameManager.OnResetLevel += ResetLevel;
     }
 
-    void OnDisable()
-    {
-        GameManager.OnResetLevel -= ResetLevel;
-    }
-
     void OnDestroy()
     {
-        Instantiate(explodeGuardsParticles, transform.position, Quaternion.identity);
+        GameManager.OnResetLevel -= ResetLevel;
     }
 
     void Update()
@@ -117,6 +112,8 @@ public class ChaseVampire : MonoBehaviour
 
         path = null;
         hasStartedCoroutine = false;
+
+        gameObject.SetActive(true);
     }
 
     void OnCollisionEnter2D(Collision2D collision)
@@ -141,8 +138,11 @@ public class ChaseVampire : MonoBehaviour
 
     private void HandleCollision(GameObject go)
     {
-        Debug.Log(go.name);
-        if(go.CompareTag("KillBox") && go.TryGetComponent(out SpinnerCollider spinnerCollider)&& spinnerCollider.canKillGuards) Destroy(gameObject);
+        if(go.CompareTag("KillBox") && go.TryGetComponent(out SpinnerCollider spinnerCollider) && spinnerCollider.canKillGuards)
+        {
+            Instantiate(explodeGuardsParticles, transform.position, Quaternion.identity);
+            gameObject.SetActive(false);
+        }
     }
 
     void OnDrawGizmosSelected()

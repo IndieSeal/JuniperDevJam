@@ -76,6 +76,7 @@ public class GameManager : MonoBehaviour
     {
         PlayerPrefs.SetInt(SceneManager.GetActiveScene().name, 1);
         GoToLevelSelect();
+        audioSource.PlayOneShot(winSound);
     }
 
     private void OnVampireDeath(Vampire vamp) => StartCoroutine(DeathScreen());

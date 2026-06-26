@@ -14,12 +14,17 @@ public class PathFollower : MonoBehaviour
 
     public Path Path => path;
 
+    [Header("Audio")]
+    [SerializeField] private AudioSource footstepL;
+    [SerializeField] private AudioSource footstepR;
+
     [Header("Movement")]
     [SerializeField] private float movementSpeed = 5;
     public bool IsAllowedToMove { get; set; } = true;
 
     [Header("Animation")]
     [SerializeField] private BouncyMation bouncyMation;
+    private bool isMoving;
 
     void OnEnable()
     {
@@ -58,6 +63,9 @@ public class PathFollower : MonoBehaviour
         if(!Application.isPlaying) return;
         
         StartCoroutine(MoveCoroutine());
+
+        StopCoroutine(MoveSfx());
+        StartCoroutine(MoveSfx());
     }
 
     private IEnumerator MoveCoroutine()
@@ -79,8 +87,13 @@ public class PathFollower : MonoBehaviour
                 {
                     transform.position = Vector2.MoveTowards(transform.position, targetPosition, movementSpeed * Time.deltaTime);
                     bouncyMation.Handle((targetPosition - transform.position).normalized);
+                    isMoving = true;
                 }
-                else bouncyMation.Handle(Vector2.zero);
+                else
+                {
+                    bouncyMation.Handle(Vector2.zero);
+                    isMoving = false;
+                }
                 yield return null;
             }
 
@@ -93,9 +106,22 @@ public class PathFollower : MonoBehaviour
             bouncyMation.Handle(Vector2.zero);
             current.CallEvents();
 
+            isMoving = false;
             yield return new WaitForSeconds(current.duration);
 
             current = path.GetPathPoint(++Index);
+        }
+    }
+
+    private IEnumerator MoveSfx()
+    {
+        float footstepDelay = 0.4f;
+        while (true)
+        {
+            yield return new WaitForSeconds(footstepDelay);
+            if(isMoving) footstepL.Play();
+            yield return new WaitForSeconds(footstepDelay);
+            if(isMoving) footstepR.Play();
         }
     }
 

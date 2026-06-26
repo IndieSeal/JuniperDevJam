@@ -65,8 +65,6 @@ public class Baby : Priest
 
     protected override void OnFinish()
     {
-        base.OnFinish();
-
         OnTakenCare?.Invoke();
 
         animator.SetTrigger("Happy");
@@ -75,12 +73,16 @@ public class Baby : Priest
         audioSource.Stop();
         audioSource.PlayOneShot(happyBaby);
 
+        Debug.Log("Finished");
         foreach(GameObject go in instancesOfAttacks)
         {
             Instantiate(explodeGuardsParticles, go.transform.position, Quaternion.identity);
             Destroy(go);
+            Debug.Log("Should destroy");
         }
         instancesOfAttacks.Clear();
+
+        base.OnFinish();
     }
 
     protected override void OnLevelReset()

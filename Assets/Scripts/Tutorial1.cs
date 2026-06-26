@@ -150,7 +150,7 @@ public class Tutorial1 : MonoBehaviour
     public static IEnumerator WaitForDialogueWithClick(string dialogue)
     {
         bool completedDialogue = false;
-        DialogueManager.Instance.InitiateDialogue(dialogue, () => Mouse.current.leftButton.wasPressedThisFrame, onDialogueOver: () => completedDialogue = true);
+        DialogueManager.Instance.InitiateDialogue(dialogue, () => Mouse.current.leftButton.wasPressedThisFrame, onDialogueOver: () => completedDialogue = true, showClickToContinue: true);
 
         while(!completedDialogue) yield return null;
     }

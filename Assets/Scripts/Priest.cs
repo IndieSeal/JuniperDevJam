@@ -137,6 +137,7 @@ public class Priest : SpinMechanic
 
         StopAllCoroutines();
         foreach(GameObject go in instancesOfAttacks) Destroy(go);
+        instancesOfAttacks.Clear();
 
         hasAttacked = false;
         isWithinRange = false;

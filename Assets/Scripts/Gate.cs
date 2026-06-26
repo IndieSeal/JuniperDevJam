@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using Sirenix.OdinInspector;
 using UnityEngine;
 
@@ -6,6 +7,7 @@ public class Gate : MonoBehaviour
     [Header("Components")]
     [SerializeField] private BoxCollider2D killBox;
     [SerializeField] private Spinner spinner;
+    [SerializeField] private List<Spinner> spinners = new List<Spinner>();  // I know I can make the other one a list, but i don't wanna break stuff D:
 
     [Header("Activation")]
     [SerializeField] private bool percentageBasedMovement = false;
@@ -46,7 +48,19 @@ public class Gate : MonoBehaviour
     void Update()
     {
         Vector2 targetPosition = originalPosition;
-        if(spinner.GetProgress() >= activationThreshold)
+
+        bool hasBrokenAll = true;
+        foreach(var spinner in spinners)
+        {
+            if(spinner.GetProgress() != 1)
+            {
+                hasBrokenAll = false;
+                break;
+            }
+        }
+
+        bool achievedIndividual = spinner.GetProgress() >= activationThreshold;
+        if(achievedIndividual && hasBrokenAll)
         {
             targetPosition = originalPosition + maxExtraPosition; 
             bool state = false;

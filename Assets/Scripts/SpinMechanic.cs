@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using Sirenix.OdinInspector;
 using UnityEngine;
@@ -11,6 +12,8 @@ public enum SpinDirection
 
 public class SpinMechanic : Spinner
 {
+    public event Action OnSpinCompleted;
+    
     [SerializeField] private Transform rotatingTransform;
     [SerializeField] private SpinDirection lockedDirection = SpinDirection.Right;
     [Space]
@@ -106,6 +109,7 @@ public class SpinMechanic : Spinner
     {
         rotationCounter++;
         accumulatedRotation -= Mathf.Sign(accumulatedRotation) * 360;
+        OnSpinCompleted?.Invoke();
     }
 
     private float GetLimitedProgress()

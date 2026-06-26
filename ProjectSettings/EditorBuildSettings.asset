@@ -14,5 +14,11 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Tutorial2.unity
     guid: f0544c5006542fc4fbdb5c2dad62887d
+  - enabled: 1
+    path: Assets/Scenes/Town.unity
+    guid: 1ab925bc69c8928a689a975e52337c7a
+  - enabled: 1
+    path: Assets/Scenes/Castle.unity
+    guid: 14875b80b1c52175ea7d0344949ebe9b
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
