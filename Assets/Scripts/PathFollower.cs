@@ -39,6 +39,15 @@ public class PathFollower : MonoBehaviour
     }
 
     [Button]
+    private void SetInIndex(int index)
+    {
+        Stop(null);
+        lastCheckpoint = index;
+        OnReachCheckpoint?.Invoke(path.GetPathPoint(index));
+        ResetPath();
+    }
+
+    [Button]
     private void ResetPath()
     {
         if(path == null)

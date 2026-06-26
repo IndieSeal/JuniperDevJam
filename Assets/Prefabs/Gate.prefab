@@ -44,6 +44,7 @@ GameObject:
   m_Component:
   - component: {fileID: 265167002060744057}
   - component: {fileID: 1747738490843957025}
+  - component: {fileID: 5581720468251473504}
   m_Layer: 0
   m_Name: KillBox
   m_TagString: KillBox
@@ -112,6 +113,20 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 7.94, y: 1.5}
   m_EdgeRadius: 0
+--- !u!114 &5581720468251473504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4399134267231555836}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e2dcb1c49d937cc2adc6b8f4b0844a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SpinnerCollider
+  canKillGuards: 1
+  spriteRenderer: {fileID: 0}
 --- !u!1 &5688511921507589600
 GameObject:
   m_ObjectHideFlags: 0
@@ -218,6 +233,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Gate
   killBox: {fileID: 1747738490843957025}
   spinner: {fileID: 0}
+  percentageBasedMovement: 0
+  activationThreshold: 0.8
+  reverseKillBox: 0
+  useGlobalPosition: 1
   gateMoveSpeed: 1
   maxExtraPosition: {x: 0, y: 6}
 --- !u!1 &7401351578594680903
@@ -298,7 +317,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 488869011
-  m_SortingLayer: 3
+  m_SortingLayer: 2
   m_SortingOrder: 1
   m_MaskInteraction: 0
   m_Sprite: {fileID: 21300000, guid: 7ff9ee970546abdc6b54a9311eb1dc5a, type: 3}

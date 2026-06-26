@@ -10,7 +10,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2690522760196284425, guid: 0b4ea70cf7d16c2428ac95bbc208c79e, type: 3}
       propertyPath: velocity
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2690522760196284425, guid: 0b4ea70cf7d16c2428ac95bbc208c79e, type: 3}
       propertyPath: findRange

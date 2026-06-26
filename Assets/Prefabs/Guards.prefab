@@ -260,6 +260,7 @@ GameObject:
   - component: {fileID: 2690522760196284425}
   - component: {fileID: 7901400879750574288}
   - component: {fileID: 325227435841488204}
+  - component: {fileID: 2958425932694925953}
   m_Layer: 0
   m_Name: Guards
   m_TagString: KillBox
@@ -295,7 +296,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81063151a4a37bf2f9c1946ac5eb5b47, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ChaseVampire
-  velocity: 10
+  explodeGuardsParticles: {fileID: 9221961610899840085, guid: fdbaee9326a33f1cf916307a8500a592, type: 3}
+  velocity: 9
   findRange: 15
   bouncyMation: {fileID: 325227435841488204}
 --- !u!61 &7901400879750574288
@@ -328,7 +330,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -364,6 +366,33 @@ MonoBehaviour:
   tiltAmount: 12
   tiltSmooth: 12
   squashAmount: 0.08
+--- !u!50 &2958425932694925953
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6068534622473397586}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 0
+  m_CollisionDetection: 1
+  m_Constraints: 4
 --- !u!1 &7102696516972097275
 GameObject:
   m_ObjectHideFlags: 0

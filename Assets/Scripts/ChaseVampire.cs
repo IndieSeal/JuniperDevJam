@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class ChaseVampire : MonoBehaviour
 {
+    [SerializeField] private GameObject explodeGuardsParticles;
+
     [SerializeField] private float velocity = 5;
     [SerializeField] private float findRange = 5;
     [SerializeField] private BouncyMation bouncyMation;
@@ -22,12 +24,18 @@ public class ChaseVampire : MonoBehaviour
 
     void OnEnable()
     {
+        Instantiate(explodeGuardsParticles, transform.position, Quaternion.identity);
         GameManager.OnResetLevel += ResetLevel;
     }
 
     void OnDisable()
     {
         GameManager.OnResetLevel -= ResetLevel;
+    }
+
+    void OnDestroy()
+    {
+        Instantiate(explodeGuardsParticles, transform.position, Quaternion.identity);
     }
 
     void Update()
@@ -109,6 +117,32 @@ public class ChaseVampire : MonoBehaviour
 
         path = null;
         hasStartedCoroutine = false;
+    }
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        HandleCollision(collision.gameObject);
+    }
+
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+        HandleCollision(collision.gameObject);
+    }
+
+    void OnTriggerStay2D(Collider2D collision)
+    {
+        HandleCollision(collision.gameObject);
+    }
+
+    void OnCollisionStay2D(Collision2D collision)
+    {
+        HandleCollision(collision.gameObject);
+    }
+
+    private void HandleCollision(GameObject go)
+    {
+        Debug.Log(go.name);
+        if(go.CompareTag("KillBox") && go.TryGetComponent(out SpinnerCollider spinnerCollider)&& spinnerCollider.canKillGuards) Destroy(gameObject);
     }
 
     void OnDrawGizmosSelected()

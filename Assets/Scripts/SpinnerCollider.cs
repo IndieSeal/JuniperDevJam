@@ -11,6 +11,8 @@ public class SpinnerCollider : MonoBehaviour
     public event Action OnPointerDown;
     public event Action OnPointerUp;
 
+    public bool canKillGuards;
+
     [InfoBox("OPTIONAL")]
     [SerializeField] private Renderer spriteRenderer;
     private bool highlightMaterial;

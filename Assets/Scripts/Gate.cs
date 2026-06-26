@@ -10,6 +10,7 @@ public class Gate : MonoBehaviour
     [Header("Activation")]
     [SerializeField] private bool percentageBasedMovement = false;
     [SerializeField] private float activationThreshold = 0.8f;
+    [SerializeField] private bool reverseKillBox;
 
     [Header("Move")]
     [SerializeField] private bool useGlobalPosition = true;
@@ -48,9 +49,16 @@ public class Gate : MonoBehaviour
         if(spinner.GetProgress() >= activationThreshold)
         {
             targetPosition = originalPosition + maxExtraPosition; 
-            SetKillBoxState(false);
+            bool state = false;
+            if(reverseKillBox) state = !state;
+            SetKillBoxState(state);
         }
-        else SetKillBoxState(true);
+        else
+        {
+            bool state = true;
+            if(reverseKillBox) state = !state;
+            SetKillBoxState(state);
+        }
 
         if(percentageBasedMovement) targetPosition = Vector2.Lerp(originalPosition, originalPosition + maxExtraPosition, spinner.GetProgress());
         Position = Vector2.Lerp(Position, targetPosition, gateMoveSpeed * Time.deltaTime);
