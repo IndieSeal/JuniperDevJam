@@ -10,7 +10,9 @@ public class PathFollower : MonoBehaviour
     [Header("Traversal")]
     [SerializeField] private Path path;
     private int lastCheckpoint = -1;
-    private int index = 0;
+    public int Index { get; private set; } = 0;
+
+    public Path Path => path;
 
     [Header("Movement")]
     [SerializeField] private float movementSpeed = 5;
@@ -52,9 +54,9 @@ public class PathFollower : MonoBehaviour
     private IEnumerator MoveCoroutine()
     {
         gameObject.SetActive(true);
-        index = lastCheckpoint == -1 ? 0 : lastCheckpoint;
+        Index = lastCheckpoint == -1 ? 0 : lastCheckpoint;
         
-        PathPoint current = path.GetPathPoint(index);
+        PathPoint current = path.GetPathPoint(Index);
 
         transform.position = current.transform.position;
         bouncyMation.Handle(Vector2.zero);
@@ -74,9 +76,9 @@ public class PathFollower : MonoBehaviour
             }
 
             //REACHED POINT
-            if(index > lastCheckpoint && current.checkpoint)
+            if(Index > lastCheckpoint && current.checkpoint)
             {
-                lastCheckpoint = index;
+                lastCheckpoint = Index;
                 OnReachCheckpoint?.Invoke(current);
             }
             bouncyMation.Handle(Vector2.zero);
@@ -84,7 +86,7 @@ public class PathFollower : MonoBehaviour
 
             yield return new WaitForSeconds(current.duration);
 
-            current = path.GetPathPoint(++index);
+            current = path.GetPathPoint(++Index);
         }
     }
 

@@ -18,6 +18,7 @@ public abstract class Spinner : MonoBehaviour
         spinnerCollider.OnPointerDown += PointerDown;
         spinnerCollider.OnPointerUp += PointerUp;
 
+        Vampire.OnDeath += VampireDeath;
         GameManager.OnResetLevel += LevelReset;
     }
 
@@ -26,6 +27,7 @@ public abstract class Spinner : MonoBehaviour
         spinnerCollider.OnPointerDown -= PointerDown;
         spinnerCollider.OnPointerUp -= PointerUp;
 
+        Vampire.OnDeath -= VampireDeath;
         GameManager.OnResetLevel -= LevelReset;
     }
 
@@ -51,9 +53,13 @@ public abstract class Spinner : MonoBehaviour
         OnUnselected?.Invoke(this);
     }
 
-    private void LevelReset()
+    private void VampireDeath(Vampire vamp)
     {
         ForceUnselect();
+    }
+
+    private void LevelReset()
+    {
         OnLevelReset();
     }
 

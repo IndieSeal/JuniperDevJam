@@ -7,31 +7,29 @@ public class TransitionManager : Singleton<TransitionManager>
 {
     [SerializeField] private Animator animator;
 
+    protected override void Awake()
+    {
+        base.Awake();
+
+        if(Instance == this)
+        {
+            transform.SetParent(null);
+            DontDestroyOnLoad(gameObject);
+        }
+    }
+
     public IEnumerator TransitionToNewScene(string sceneName)
     {
         yield return Transition(false);
         
-        transform.SetParent(null);
-        DontDestroyOnLoad(gameObject);
-        Instance = null;
-
         yield return null;
 
         this.animator.SetTrigger("Reset");
         SceneManager.LoadScene(sceneName);
-        yield return null;
-
-        Debug.Log("Entered animation reset");
 
         yield return null;
-
-        Debug.Log("Start to wait");
 
         yield return WaitForAnimation("Reset");
-
-        Debug.Log("Waiting");
-
-        Destroy(gameObject);
     }
 
     public IEnumerator Transition(bool autoPlayReset = true, Action onTransitionShown = null)

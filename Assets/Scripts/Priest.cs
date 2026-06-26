@@ -22,7 +22,7 @@ public class Priest : SpinMechanic
     [SerializeField, ShowIf("goTowardsPlayer")] private float velocity = 6;
     private bool hasAttacked;
     private float timer;
-    private List<GameObject> instancesOfAttacks = new List<GameObject>();
+    protected List<GameObject> instancesOfAttacks = new List<GameObject>();
     
     [SerializeField] protected Animator animator;
     [SerializeField] protected AudioSource audioSource;
@@ -48,7 +48,7 @@ public class Priest : SpinMechanic
     {
         base.Update();
 
-        if(IsSelected || IsFinished) return;
+        if(IsFinished) return;
 
         bool newWithinRange = false;
         Vampire vampire = null;
@@ -71,11 +71,10 @@ public class Priest : SpinMechanic
         if(!isWithinRange || (attackOnce && hasAttacked)) return;
 
         timer += Time.deltaTime;
-        if(!playedAnimation)
-        {
-            Alert();
-            playedAnimation = true;
-        }
+        if(!playedAnimation) Alert();
+
+        if(IsSelected) return;
+
         float delay = hasAttacked ? repeatAttackDelay : startAttackDelay;
         if(timer >= delay)
         {
@@ -87,6 +86,7 @@ public class Priest : SpinMechanic
 
     protected virtual void Alert()
     {
+        playedAnimation = true;
         alertParticle.Play();
         animator.SetTrigger("Alert");
     }

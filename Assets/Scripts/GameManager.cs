@@ -28,6 +28,7 @@ public class GameManager : MonoBehaviour
     
     void Awake()
     {
+        SpinnerCollider.IsGlobalInteractable = true;
         settingsMenu.SetActive(false);
     }
 
@@ -81,6 +82,8 @@ public class GameManager : MonoBehaviour
 
     private IEnumerator DeathScreen()
     {
+        SpinnerCollider.IsGlobalInteractable = false;
+
         while(!cameraReached) yield return null;
         
         audioSource.PlayOneShot(deathSound);
@@ -94,6 +97,8 @@ public class GameManager : MonoBehaviour
     private IEnumerator ResetLevel()
     {
         yield return TransitionManager.Instance.Transition();
+
+        SpinnerCollider.IsGlobalInteractable = true;
         OnResetLevel?.Invoke();
     }
 }

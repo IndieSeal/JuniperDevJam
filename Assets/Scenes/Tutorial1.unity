@@ -8079,8 +8079,8 @@ MonoBehaviour:
   pathPoints:
   - transform: {fileID: 1891416356}
     duration: 1
-    checkpoint: 0
-    zoom: 15
+    checkpoint: 1
+    zoom: 20
     callOnce: 1
     unityEvents:
       m_PersistentCalls:

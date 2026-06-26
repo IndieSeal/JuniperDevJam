@@ -29,6 +29,7 @@ public class DialogueManager : Singleton<DialogueManager>
 
     public void InitiateDialogue(string text, Func<bool> continueCondition, Sprite sprite = null, Action onDialogueOver = null)
     {
+        typewriter.onTextShowed.RemoveListener(ManageDialogueFinished);
         StopAllCoroutines();
         
         dialoguePanel.SetActive(true);

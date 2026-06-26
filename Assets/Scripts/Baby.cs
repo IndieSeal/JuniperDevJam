@@ -1,17 +1,32 @@
+using System;
 using UnityEngine;
 
 public class Baby : Priest
 {
+    public event Action OnTakenCare;
+    public event Action OnAttack;
+    
+    [SerializeField] private GameObject explodeGuardsParticles;
+    
     [SerializeField] private GameObject happyBabyParticles;
     [SerializeField] private AudioClip cryingBaby;
     [SerializeField] private AudioClip madBaby;
     [SerializeField] private AudioClip happyBaby;
+    [SerializeField, Tooltip("In this case, for tutorial use")] private bool waitForInstructions = false;
+    private bool carryOnDefaultBehaviour;
 
     protected override void Update()
     {
+        if(waitForInstructions && !carryOnDefaultBehaviour) return;
+        
         base.Update();
 
         audioSource.spatialBlend = IsSelected ? 0 : 1;
+    }
+
+    public void InstructionAlert()
+    {
+        Alert();
     }
 
     protected override void Alert()
@@ -25,10 +40,22 @@ public class Baby : Priest
         audioSource.Play();
     }
 
+    public void InstructionAttack()
+    {
+        Attack(null);
+    }
+
+    public void SetBabyNormality(bool state)
+    {
+        carryOnDefaultBehaviour = state;
+    }
+
     protected override void Attack(Vampire vamp)
     {
         base.Attack(vamp);
         animator.SetTrigger("Mad");
+
+        OnAttack?.Invoke();
 
         audioSource.Stop();
         audioSource.loop = true;
@@ -40,11 +67,20 @@ public class Baby : Priest
     {
         base.OnFinish();
 
+        OnTakenCare?.Invoke();
+
         animator.SetTrigger("Happy");
         happyBabyParticles.SetActive(true);
 
         audioSource.Stop();
         audioSource.PlayOneShot(happyBaby);
+
+        foreach(GameObject go in instancesOfAttacks)
+        {
+            Instantiate(explodeGuardsParticles, go.transform.position, Quaternion.identity);
+            Destroy(go);
+        }
+        instancesOfAttacks.Clear();
     }
 
     protected override void OnLevelReset()

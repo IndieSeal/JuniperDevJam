@@ -94,10 +94,10 @@ public class Tutorial1 : MonoBehaviour
     {
         if(!reachedPointOfPart2) return;
 
-        StartCoroutine(VampireWait(part2DeathDelay));
+        StartCoroutine(VampireWait(pathFollower, part2DeathDelay));
     }
     
-    private IEnumerator VampireWait(float seconds)
+    public static IEnumerator VampireWait(PathFollower pathFollower, float seconds)
     {
         pathFollower.IsAllowedToMove = false;
         yield return new WaitForSeconds(seconds);
@@ -138,7 +138,7 @@ public class Tutorial1 : MonoBehaviour
 
     #endregion
 
-    private IEnumerator WaitForCamera(Vector3 position, float moveSpeed = 1, float zoom = 7, float zoomSpeed = 6)
+    public static IEnumerator WaitForCamera(Vector3 position, float moveSpeed = 1, float zoom = 7, float zoomSpeed = 6)
     {
         bool reachedDestination = false;
         CameraMovement.CameraReachedDeathDestination += () => reachedDestination = true;
@@ -147,7 +147,7 @@ public class Tutorial1 : MonoBehaviour
         while(!reachedDestination) yield return null;
     }
 
-    private IEnumerator WaitForDialogueWithClick(string dialogue)
+    public static IEnumerator WaitForDialogueWithClick(string dialogue)
     {
         bool completedDialogue = false;
         DialogueManager.Instance.InitiateDialogue(dialogue, () => Mouse.current.leftButton.wasPressedThisFrame, onDialogueOver: () => completedDialogue = true);
@@ -155,7 +155,15 @@ public class Tutorial1 : MonoBehaviour
         while(!completedDialogue) yield return null;
     }
 
-    private IEnumerator WaitForSpinnerToFinish(Spinner spinner)
+    public static IEnumerator WaitForDialogueToFinish(string dialogue)
+    {
+        bool completedDialogue = false;
+        DialogueManager.Instance.InitiateDialogue(dialogue, () => true, onDialogueOver: () => completedDialogue = true);
+
+        while(!completedDialogue) yield return null;
+    }
+
+    public static IEnumerator WaitForSpinnerToFinish(Spinner spinner)
     {
         while(spinner.GetProgress() != 1) yield return null;
     }

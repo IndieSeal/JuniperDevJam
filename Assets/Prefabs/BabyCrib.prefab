@@ -10155,10 +10155,12 @@ MonoBehaviour:
   priestParticleRange: 2
   priestRotationRange: 4
   attackAnimation: Attack
+  explodeGuardsParticles: {fileID: 9221961610899840085, guid: fdbaee9326a33f1cf916307a8500a592, type: 3}
   happyBabyParticles: {fileID: 2920022508373213445}
   cryingBaby: {fileID: 8300000, guid: f0ad51a3f4294eaa6be2df98b87a860e, type: 3}
   madBaby: {fileID: 8300000, guid: e67fde4fb69bbeb41b79cf90e0e25418, type: 3}
   happyBaby: {fileID: 8300000, guid: c90daaafb2ed27dd5a2c8e7742c8f9fc, type: 3}
+  waitForInstructions: 0
 --- !u!95 &7461104886318504071
 Animator:
   serializedVersion: 7
