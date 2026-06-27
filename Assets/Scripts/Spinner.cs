@@ -22,18 +22,13 @@ public abstract class Spinner : MonoBehaviour
         GameManager.OnResetLevel += LevelReset;
     }
 
-    protected virtual void OnDisable()
+    void OnDestroy()
     {
         spinnerCollider.OnPointerDown -= PointerDown;
         spinnerCollider.OnPointerUp -= PointerUp;
 
         Vampire.OnDeath -= VampireDeath;
         GameManager.OnResetLevel -= LevelReset;
-    }
-
-    void OnDestroy()
-    {
-        
     }
 
     void LateUpdate()
