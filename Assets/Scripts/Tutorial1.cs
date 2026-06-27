@@ -68,6 +68,7 @@ public class Tutorial1 : MonoBehaviour
 
     private IEnumerator Part2Coroutine()
     {
+        SpinnerCollider.IsGlobalInteractable = false;
         pathFollower.IsAllowedToMove = false;
         reachedPointOfPart2 = true;
 

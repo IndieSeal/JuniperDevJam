@@ -36,6 +36,10 @@ public class Priest : SpinMechanic
     private Vector2 initialGrabOffset;
     private Vector2 initialPosition;
 
+    [Header("Priest Audio")]
+    [SerializeField] private AudioSource madPerson;
+    [SerializeField] private AudioClip shakeWater;
+
     [FoldoutGroup("Animation Names"), SerializeField] private string attackAnimation = "Attack";
     private bool playedAnimation;
 
@@ -160,6 +164,7 @@ public class Priest : SpinMechanic
 
         Vector2 position = grabOriginalPosition + (Vector2.up * 5) + (Random.insideUnitCircle * priestParticleRange);
         Instantiate(waterParticles, position, Quaternion.identity).gameObject.SetActive(true);
+        if(shakeWater != null) audioSource.PlayOneShot(shakeWater);
     }
 
     private Vector2 GetClampedPosition(Vector2 position)
@@ -174,6 +179,8 @@ public class Priest : SpinMechanic
         initialGrabOffset = (Vector3)Utilities.Get2DMouseWorldPosition() - transform.position;
         base.OnPointerDown();
 
+        if(madPerson != null) madPerson.Play();
+
         timer = 0;
     }
 
@@ -182,6 +189,8 @@ public class Priest : SpinMechanic
         transform.position = grabOriginalPosition;
         isWithinRange = false;
         animator.SetTrigger("Reset");
+
+        if(madPerson != null) madPerson.Stop();
 
         base.OnPointerUp();
     }

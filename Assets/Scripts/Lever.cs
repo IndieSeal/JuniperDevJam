@@ -12,7 +12,8 @@ public class Lever : Spinner
     [SerializeField] private Transform rotationHandle;
     [SerializeField] private bool canReturnToOriginal = true;
     private float targetAngle;
-    public bool State { get; private set; } // Off = false, On = true :D!
+    public bool State { get; private set; } = false; // Off = false, On = true :D!
+    [SerializeField] private AudioSource switchSource;
 
     void Start()
     {
@@ -53,8 +54,16 @@ public class Lever : Spinner
     private void SetZEulerAngle(float value) => rotationHandle.eulerAngles = new Vector3(rotationHandle.eulerAngles.x, rotationHandle.eulerAngles.y, value);
     private void SetState(float closeness)
     {
-        if(closeness < 0.1f) State = false;
-        else if(closeness > 0.9f) State = true;
+        if(closeness < 0.1f && State)
+        {
+            State = false;
+            switchSource.Play();
+        }
+        else if(closeness > 0.9f && !State)
+        {
+            State = true;
+            switchSource.Play();
+        }
     }
 
     private bool IsMouseAboveLever()

@@ -65,6 +65,7 @@ public class Tutorial2 : MonoBehaviour
         hasBabyAttacked = false;
         part2Baby.SetBabyNormality(false);
         pathFollower.IsAllowedToMove = true;
+        SpinnerCollider.IsGlobalInteractable = false;
     }
 
     public void StartPart2()

@@ -76,6 +76,7 @@ public class GameManager : MonoBehaviour
     {
         PlayerPrefs.SetInt(SceneManager.GetActiveScene().name, 1);
         GoToLevelSelect();
+        audioSource.volume = .3f;
         audioSource.PlayOneShot(winSound);
     }
 

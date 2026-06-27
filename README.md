@@ -38,6 +38,9 @@ This was made in the Unity game engine, you can download the repository, downloa
 <ul><li>https://freesound.org/people/sit_walk/sounds/618084/</li></ul>
 <ul><li>https://freesound.org/people/deleted_user_2104797/sounds/164472/</li></ul>
 <ul><li>https://freesound.org/people/kwahmah_02/sounds/269476/</li></ul>
+<ul><li>https://freesound.org/people/AJ170193/sounds/408350/</li></ul>
+<ul><li>https://freesound.org/people/zajichavez/sounds/629617/</li></ul>
+<ul><li>https://freesound.org/people/Krokulator/sounds/696746/</li></ul>
 
 <br/>
 <br/>

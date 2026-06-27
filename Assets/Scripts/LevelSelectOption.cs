@@ -18,6 +18,8 @@ public class LevelSelectOption : MonoBehaviour, IPointerEnterHandler, IPointerEx
     [SerializeField] private bool isUnlockedByDefault = false;
     private bool isUnlocked;
 
+    public string SceneName => sceneName;
+
     [SerializeField] private AudioSource source;
     [SerializeField] private AudioClip hoverClip;
     [SerializeField] private AudioClip clickClip;
