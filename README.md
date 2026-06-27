@@ -1,6 +1,7 @@
 Hello, this is a game that I basically made solo, made in a week for the <a href=https://itch.io/jam/theveryseriousjuniperdevgamejam>Juniper Dev Game Jam</a>.<br/>
 This was made in the Unity game engine, you can download the repository, download the plugins and assets listed below in credits (or modify the assets so you don't need them!)
-
+<br/>
+<img width="800" height="615" alt="Screencast_20260627_053959-ezgif com-optimize" src="https://github.com/user-attachments/assets/cef282a5-c77b-4aa0-b41e-518f844c766f" />
 <br/>
 <br/>
 
