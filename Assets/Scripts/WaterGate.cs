@@ -7,6 +7,7 @@ public class WaterGate : MonoBehaviour
     [SerializeField] private BoxCollider2D killBox;
     [SerializeField] private Animator animator;
     [SerializeField] private List<Spinner> spinners = new List<Spinner>();
+    [SerializeField] private bool isKillBoxReverse;
     private bool isBroken;
 
     void Awake()
@@ -29,6 +30,7 @@ public class WaterGate : MonoBehaviour
         if(isBroken) return;
 
         bool hasBrokenAll = true;
+
         foreach(var spinner in spinners)
         {
             if(spinner.GetProgress() != 1)
@@ -38,13 +40,15 @@ public class WaterGate : MonoBehaviour
             }
         }
 
+        bool enabledState = isKillBoxReverse;
         if(hasBrokenAll)
         {
-            killBox.enabled = false;
+            Debug.Log("Play Animation");
+            killBox.enabled = enabledState;
             animator.SetTrigger("Break");
             isBroken = true;
         }
-        else killBox.enabled = true;
+        else killBox.enabled = !enabledState;
     }
 
     private void ResetLevel()

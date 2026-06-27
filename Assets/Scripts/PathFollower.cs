@@ -6,7 +6,7 @@ using UnityEngine;
 public class PathFollower : MonoBehaviour
 {
     public static event Action<PathPoint> OnReachCheckpoint;
-    
+
     [Header("Traversal")]
     [SerializeField] private Path path;
     private int lastCheckpoint = -1;

@@ -14,6 +14,7 @@ This was made in the Unity game engine, you can download the repository, downloa
 <ul><li>https://joszs.itch.io/foliage-pack</li></ul>
 <ul><li>https://askaine.itch.io/foliage-pack-flowers-leaves-mushrooms</li></ul>
 <ul><li>https://kenney.nl/assets</li></ul>
+<ul><li>https://stealthix.itch.io/rock-pack</li></ul>
 
 ***Unity Plugins #None of these are required but they help the development be quicker and make better visuals***
 <ul><li>https://assetstore.unity.com/packages/p/all-in-1-sprite-shader-156513</li></ul>

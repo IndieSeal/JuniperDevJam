@@ -34,6 +34,7 @@ public class PathPoint
 public class Path : MonoBehaviour
 {
     [SerializeField] private List<PathPoint> pathPoints = new List<PathPoint>();
+    public int PointAmount => pathPoints.Count;
 
     void OnEnable()
     {

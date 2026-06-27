@@ -31,6 +31,11 @@ public abstract class Spinner : MonoBehaviour
         GameManager.OnResetLevel -= LevelReset;
     }
 
+    void OnDestroy()
+    {
+        
+    }
+
     void LateUpdate()
     {
         if(IsFinished) ForceUnselect();

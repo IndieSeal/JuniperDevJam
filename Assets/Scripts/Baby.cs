@@ -85,12 +85,43 @@ public class Baby : Priest
         base.OnFinish();
     }
 
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        HandleCollision(collision.gameObject);
+    }
+
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+        HandleCollision(collision.gameObject);
+    }
+
+    void OnTriggerStay2D(Collider2D collision)
+    {
+        HandleCollision(collision.gameObject);
+    }
+
+    void OnCollisionStay2D(Collision2D collision)
+    {
+        HandleCollision(collision.gameObject);
+    }
+
+    private void HandleCollision(GameObject go)
+    {
+        Debug.Log(go.tag);
+        if(go.CompareTag("KillBox") && go.TryGetComponent(out SpinnerCollider spinnerCollider) && spinnerCollider.canKillGuards)
+        {
+            //Instantiate(explodeGuardsParticles, transform.position, Quaternion.identity);
+            gameObject.SetActive(false);
+        }
+    }
+
     protected override void OnLevelReset()
     {
         base.OnLevelReset();
 
         animator.SetTrigger("Happy");
         happyBabyParticles.SetActive(false);
+        gameObject.SetActive(true);
 
         audioSource.Stop();
     }

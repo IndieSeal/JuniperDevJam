@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: b27ef782225dcdc12b8f78e65a153b80
+guid: d54e59cb8875515d3aa49c9bdd49dfd6
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2904457877120967500
-    second: Vampire_0
+      213: -3961308501531475850
+    second: BigRock2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -24,7 +24,7 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
     flipGreenChannel: 0
-  isReadable: 1
+  isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
@@ -46,11 +46,11 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 0
-  alignment: 9
-  spritePivot: {x: 0.52, y: 0.06}
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
@@ -126,23 +126,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Vampire_0
+      name: BigRock2_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 252
-        height: 385
+        width: 425
+        height: 627
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4bc9e1103fa41b7d0800000000000000
-      internalID: -2904457877120967500
+      spriteID: 6704b70e7ea9609c0800000000000000
+      internalID: -3961308501531475850
       vertices: []
       indices: 
       edges: []
@@ -151,8 +151,8 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
-    internalID: 1537655665
+    spriteID: 
+    internalID: 0
     vertices: []
     indices: 
     edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Vampire_0: -2904457877120967500
+      BigRock2_0: -3961308501531475850
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

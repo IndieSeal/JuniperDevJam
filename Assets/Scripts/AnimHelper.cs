@@ -6,7 +6,13 @@ public class AnimHelper : MonoBehaviour
 {
     public void BasicShake()
     {
+        StopAllCoroutines();
         StartCoroutine(Shake(1, 1, 0.5f));
+    }
+    public void BigShake()
+    {
+        StopAllCoroutines();
+        StartCoroutine(Shake(3, 2, 1.5f));
     }
 
     private IEnumerator Shake(float amplitude, float frequency, float time)

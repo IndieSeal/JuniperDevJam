@@ -18,6 +18,10 @@ public class LevelSelectOption : MonoBehaviour, IPointerEnterHandler, IPointerEx
     [SerializeField] private bool isUnlockedByDefault = false;
     private bool isUnlocked;
 
+    [SerializeField] private AudioSource source;
+    [SerializeField] private AudioClip hoverClip;
+    [SerializeField] private AudioClip clickClip;
+
     private bool isHovered;
 
     void Awake()
@@ -50,6 +54,7 @@ public class LevelSelectOption : MonoBehaviour, IPointerEnterHandler, IPointerEx
     private void OnClickButton()
     {
         Debug.Log($"Changing scene to: {sceneName}");
+        source.PlayOneShot(clickClip);
         foreach(var button in FindObjectsByType<Button>()) button.interactable = false;
         StartCoroutine(TransitionManager.Instance.TransitionToNewScene(sceneName));
     }
@@ -57,6 +62,7 @@ public class LevelSelectOption : MonoBehaviour, IPointerEnterHandler, IPointerEx
     public void OnPointerEnter(PointerEventData eventData)
     {
         isHovered = true;
+        source.PlayOneShot(hoverClip);
     }
 
     public void OnPointerExit(PointerEventData eventData)
