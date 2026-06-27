@@ -6017,11 +6017,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4923190398344575791, guid: e6cd3cec99a34cb09987c155dd114824, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -100.81302
+      value: -100.4
       objectReference: {fileID: 0}
     - target: {fileID: 4923190398344575791, guid: e6cd3cec99a34cb09987c155dd114824, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 179.66882
+      value: 184.8
       objectReference: {fileID: 0}
     - target: {fileID: 4923190398344575791, guid: e6cd3cec99a34cb09987c155dd114824, type: 3}
       propertyPath: m_LocalPosition.z
@@ -6963,6 +6963,14 @@ PrefabInstance:
       propertyPath: attackPrefab
       value: 
       objectReference: {fileID: 866021919843460305, guid: ced057e45eb0be7a3919cbe2ced25748, type: 3}
+    - target: {fileID: 2872983019909869705, guid: 6e7785cc9e8215f88bb25115c1b43435, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2872983019909869705, guid: 6e7785cc9e8215f88bb25115c1b43435, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.24
+      objectReference: {fileID: 0}
     - target: {fileID: 3311350576775520846, guid: 6e7785cc9e8215f88bb25115c1b43435, type: 3}
       propertyPath: m_LocalPosition.x
       value: 8.93
@@ -7016,6 +7024,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4549639445581039982, guid: 6e7785cc9e8215f88bb25115c1b43435, type: 3}
+      propertyPath: m_FlipX
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131535205446375684, guid: 6e7785cc9e8215f88bb25115c1b43435, type: 3}
       propertyPath: m_FlipX
       value: 1
       objectReference: {fileID: 0}
@@ -7758,6 +7770,14 @@ PrefabInstance:
       propertyPath: attackPrefab
       value: 
       objectReference: {fileID: 866021919843460305, guid: ced057e45eb0be7a3919cbe2ced25748, type: 3}
+    - target: {fileID: 2872983019909869705, guid: 6e7785cc9e8215f88bb25115c1b43435, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.51
+      objectReference: {fileID: 0}
+    - target: {fileID: 2872983019909869705, guid: 6e7785cc9e8215f88bb25115c1b43435, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.24
+      objectReference: {fileID: 0}
     - target: {fileID: 3311350576775520846, guid: 6e7785cc9e8215f88bb25115c1b43435, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.39
@@ -7811,6 +7831,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4549639445581039982, guid: 6e7785cc9e8215f88bb25115c1b43435, type: 3}
+      propertyPath: m_FlipX
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131535205446375684, guid: 6e7785cc9e8215f88bb25115c1b43435, type: 3}
       propertyPath: m_FlipX
       value: 1
       objectReference: {fileID: 0}
@@ -11609,6 +11633,14 @@ PrefabInstance:
       propertyPath: attackPrefab
       value: 
       objectReference: {fileID: 866021919843460305, guid: ced057e45eb0be7a3919cbe2ced25748, type: 3}
+    - target: {fileID: 2872983019909869705, guid: 6e7785cc9e8215f88bb25115c1b43435, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.43
+      objectReference: {fileID: 0}
+    - target: {fileID: 2872983019909869705, guid: 6e7785cc9e8215f88bb25115c1b43435, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.25
+      objectReference: {fileID: 0}
     - target: {fileID: 3311350576775520846, guid: 6e7785cc9e8215f88bb25115c1b43435, type: 3}
       propertyPath: m_LocalPosition.x
       value: 20.22
@@ -11662,6 +11694,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4549639445581039982, guid: 6e7785cc9e8215f88bb25115c1b43435, type: 3}
+      propertyPath: m_FlipX
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5131535205446375684, guid: 6e7785cc9e8215f88bb25115c1b43435, type: 3}
       propertyPath: m_FlipX
       value: 1
       objectReference: {fileID: 0}
@@ -16583,7 +16619,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: ba462f9610e6ab3abb646c11ce8b9ea5, type: 3}
+  m_Resource: {fileID: 8300000, guid: 4d2612d7d70294fb0b2664fb1fab7bfd, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.275
   m_Pitch: 1

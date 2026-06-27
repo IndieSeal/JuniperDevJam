@@ -29,6 +29,14 @@ This was made in the Unity game engine, you can download the repository, downloa
 <ul><li>https://freesound.org/people/SergeQuadrado/sounds/636956/</li></ul>
 <ul><li>https://freesound.org/people/9voltfan/sounds/776321/</li></ul>
 <ul><li>https://freesound.org/people/Stevious42/sounds/259611/</li></ul>
+<ul><li>https://freesound.org/people/CosmicEmbers/sounds/161650/</li></ul>
+<ul><li>https://freesound.org/people/Twotrickpony/sounds/752342/</li></ul>
+<ul><li>https://pixabay.com/es/sound-effects/pel%C3%ADculas-y-efectos-especiales-click-buttons-ui-menu-sounds-effects-button-2-203594/</li></ul>
+<ul><li>https://pixabay.com/es/sound-effects/pel%C3%ADculas-y-efectos-especiales-ui-sounds-pack-3-4-359718/</li></ul>
+<ul><li>https://freesound.org/people/-StickyCoder-_on_scratch/sounds/689571/</li></ul>
+<ul><li>https://freesound.org/people/birdswkaren/sounds/712103/</li></ul>
+<ul><li>https://freesound.org/people/sit_walk/sounds/618084/</li></ul>
+<ul><li>https://freesound.org/people/deleted_user_2104797/sounds/164472/</li></ul>
 
 <br/>
 <br/>

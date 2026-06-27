@@ -343,7 +343,7 @@ MonoBehaviour:
   spinner: {fileID: 5169897220376388412}
   audioSource: {fileID: 1896539688276551817}
   snip: {fileID: 8300000, guid: 3b4b5f80946e5afefb13b7bd5cca3c77, type: 3}
-  cut: {fileID: 8300000, guid: 3b4b5f80946e5afefb13b7bd5cca3c77, type: 3}
+  cut: {fileID: 8300000, guid: fee95b44d042a122581dab711e28bfb8, type: 3}
 --- !u!82 &1896539688276551817
 AudioSource:
   m_ObjectHideFlags: 0
