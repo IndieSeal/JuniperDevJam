@@ -31,7 +31,7 @@ public class SmallTown : MonoBehaviour
         yield return WaitForDialogueToFinish(part2TextDialogue1);
     }
 
-    [FoldoutGroup("Part 1.5"), SerializeField, TextArea] private string part9TextDialogue1 = "THAT'S TOO MANY GUARDS, BREAK THE LEGS OF THAT ROCK HOLDER!";
+    [FoldoutGroup("Part 3"), SerializeField, TextArea] private string part9TextDialogue1 = "THAT'S TOO MANY GUARDS, BREAK THE LEGS OF THAT ROCK HOLDER!";
 
     public void StartPart9()
     {
