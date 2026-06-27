@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using UnityEngine;
 
 public class Vampire : MonoBehaviour
@@ -57,6 +58,13 @@ public class Vampire : MonoBehaviour
     {
         GetComponent<Collider2D>().enabled = true;
         animator.SetTrigger("Reset");
+        StartCoroutine(DeadSet());
+        //isDead = false;
+    }
+
+    private IEnumerator DeadSet()
+    {
+        yield return null;
         isDead = false;
     }
 }

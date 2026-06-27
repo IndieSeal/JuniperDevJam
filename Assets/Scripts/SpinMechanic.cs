@@ -64,7 +64,7 @@ public class SpinMechanic : Spinner
             if(lockedDirection != SpinDirection.Both && ((lockedDirection == SpinDirection.Left && delta > 0) || (lockedDirection == SpinDirection.Right && delta < 0))) validDirection = false;
 
             float maxAnglePerAccumulation = 40; // So players can't just grab the center point and start doing the fastest spins of their lives
-            if (validDirection && Mathf.Abs(delta) < maxAnglePerAccumulation)
+            if (validDirection)
             {
                 accumulatedRotation += delta;
                 visualRotation += delta;
