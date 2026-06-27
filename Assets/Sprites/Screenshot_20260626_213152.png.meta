@@ -1,16 +1,10 @@
 fileFormatVersion: 2
-guid: 30fd11c5d755fea438a291457f485b39
+guid: a0a86e9ee90a0d201b045383d87b8ae8
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4915713575613817527
-    second: DialogueUI_0
-  - first:
-      213: -3514209476637312783
-    second: DialogueUI_1
-  - first:
-      213: -5535322275217465947
-    second: DialogueUI_2
+      213: -8357634460605814544
+    second: Screenshot_20260626_213152_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -43,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -52,7 +46,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 0
   alignment: 0
@@ -81,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -132,89 +126,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: DialogueUI_0
+      name: Screenshot_20260626_213152_0
       rect:
         serializedVersion: 2
-        x: 113
-        y: 876
-        width: 586
-        height: 158
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 50, y: 40, z: 50, w: 40}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 94d19fb2c80e7cbb0800000000000000
-      internalID: -4915713575613817527
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DialogueUI_1
-      rect:
-        serializedVersion: 2
-        x: 134
-        y: 688
-        width: 136
-        height: 135
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 10, y: 10, z: 10, w: 10}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1f8b8be99150b3fc0800000000000000
-      internalID: -3514209476637312783
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DialogueUI_2
-      rect:
-        serializedVersion: 2
-        x: 289
-        y: 687
-        width: 145
-        height: 140
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5ad1b54d7b59e23b0800000000000000
-      internalID: -5535322275217465947
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DialogueUI_3
-      rect:
-        serializedVersion: 2
-        x: 433
-        y: 677
-        width: 194
-        height: 191
+        x: 0
+        y: 0
+        width: 1300
+        height: 1030
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: e1959291571a1d8809470587442f4767
-      internalID: -1649738145
+      spriteID: 0f8e60d1db7b30c80800000000000000
+      internalID: -8357634460605814544
       vertices: []
       indices: 
       edges: []
@@ -223,7 +151,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 37c109c5aa28ad187bac1532ddaf65bc
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -233,10 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      DialogueUI_0: -4915713575613817527
-      DialogueUI_1: -3514209476637312783
-      DialogueUI_2: -5535322275217465947
-      DialogueUI_3: -1649738145
+      Screenshot_20260626_213152_0: -8357634460605814544
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
