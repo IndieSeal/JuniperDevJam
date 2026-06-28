@@ -6,7 +6,7 @@ This was made in the Unity game engine, you can download the repository, downloa
 <br/>
 
 **THIS IS A LIST OF PLUGINS THAT YOU CAN BUY/DOWNLOAD TO FULLY MAKE THE GAME WORK!**
-**I'M NOT ALLOWED TO DISTRIBUTE THEM, SO GO WILD WITH THE SHOPPING SPREE (of real cool assets), OR REPLACE IT WITH YOUR OWN ASSETS IDK.**
+**I'M NOT ALLOWED TO DISTRIBUTE SOME OF THEM (I'm including every single asset I downloaded externally! Gotta give credit! <3), SO GO WILD WITH THE SHOPPING/DOWNLOAD SPREE (of real cool assets), OR REPLACE IT WITH YOUR OWN ASSETS IDK.**
 <br/>
 <br/>
 
